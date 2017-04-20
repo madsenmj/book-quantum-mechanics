@@ -1,0 +1,27 @@
+% tool7
+%POLYGON command
+\newcommand{\polygon}[2]{%
+let \n{len} = {2*#2*tan(360/(2*#1))} in
+++(0,-#2) ++(\n{len}/2,0) \foreach \x in {1,...,#1} { -- ++(\x*360/#1:\n{len})}}
+
+\begin{tikzpicture}[x=1ex,y=1ex]
+  
+  
+  \begin{scope}[very thin]
+   \fill[blue,thick] (0,0) \polygon{9}{2};
+\filldraw[draw=blue,fill=black!20,thick, rotate=22.5] (0,0) \polygon{9}{2};   
+   
+\filldraw[fill=green,rounded corners=1] (-1,.5) rectangle +(2,.6);
+\filldraw[fill=white,rounded corners=1] (-1.5,-1) rectangle +(.3,2);
+\filldraw[fill=white,rounded corners=1] (1.5,1) rectangle +(-.3,-2);
+        \filldraw[fill=green] (-.8,-.1) circle (0.25);
+        \filldraw[fill=blue] (.8,-.1) circle (0.25);
+        
+        \begin{scope}[color=cyan]
+            \draw (-.6,-.6) -- (.6,-.6);
+            \draw (-.4,-.8) -- (.4,-.8);
+            \draw (-.6,-1) -- (.6,-1);
+        \end{scope}
+
+    \end{scope}
+\end{tikzpicture}

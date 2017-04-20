@@ -1,0 +1,157 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[notitlepage,oneside,openany]{tufte-book} 
+
+
+%----------------------------------------------------------------------------------------
+%	BOOK META-INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title[A Quantum Mechanic's Guide]{Physics 315\\A Quantum Mechanic's Guide} % Title of the book
+
+\author[Wabash College]{M.J.Madsen \& D.E. Krause} % Author
+\date{Updated: \today}
+
+\publisher{Wabash College} % Publisher
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\frontmatter
+
+%----------------------------------------------------------------------------------------
+%	EPIGRAPH
+%----------------------------------------------------------------------------------------
+
+%\thispagestyle{empty}
+%\openepigraph{The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.}{Paul Rand, {\itshape Design, Form, and Chaos}}
+%\vfill
+
+%----------------------------------------------------------------------------------------
+\hypersetup{pageanchor=false}
+
+\maketitle % Print the title page
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+%\newpage
+\begin{fullwidth}
+~\vfill
+\thispagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+Copyright \copyright\ 2015 \thanklessauthor
+
+\par\smallcaps{Published by \thanklesspublisher}
+
+\par\smallcaps{www.wabash.edu}
+
+
+\par\textit{First printing, June, 2015}
+\end{fullwidth}
+
+%----------------------------------------------------------------------------------------
+\newpage
+
+\tableofcontents % Print the table of contents
+
+%----------------------------------------------------------------------------------------
+%\listoffigures % Print a list of figures
+%----------------------------------------------------------------------------------------
+%\listoftables % Print a list of tables
+%----------------------------------------------------------------------------------------
+%	DEDICATION PAGE
+%----------------------------------------------------------------------------------------
+%\cleardoublepage
+%~\vfill
+%\begin{doublespace}
+%\noindent\fontsize{18}{22}\selectfont\itshape
+%\nohyphenation
+%This is my bag of cake.
+%\end{doublespace}
+%\vfill
+%\vfill
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+\hypersetup{pageanchor=true}
+%\cleardoublepage
+
+\chapter*{Introduction} % The asterisk leaves out this chapter from the table of contents
+
+I first became a quantum mechanic as a graduate student at the University of Michigan. I was a new student there and was looking for a research group to join when I visited Chris Monroe's lab. That day they had trapped a single cadmium atom and were using lasers to control the atomic fluorescence. There, visible on the screen, was the light coming from a single atom. I was hooked.  I didn't know exactly what they were doing with the atom, but whatever it was, I wanted to do it.
+
+I learned over the next couple of years that being a quantum mechanic was multi-faceted: I got to do some vacuum plumbing work, some electronics, some optics, some theory work, and some philosophy. I enjoyed all of it. This guide will give you the basic tools needed to do the theory work as well as give you an idea of how that theory work connects to experimental stuff in the lab. I'll even talk a little bit of philosophy, though that aspect really deserves its own guidebook.\marginnote[-1cm]{There are lots of good resources in the library for this.}
+
+I'm starting this guide with a quick review of the key ideas from classical physics that we'll need to use the quantum tools to do interesting things. I'm also going to review why we need these tools- under what circumstances do these models work and why do the classical models not work. Then I'll go through the basic toolbox and talk about how to use the tools for situations that are exclusively quantum including the entanglement of multiple systems, quantum atom optics, quantum transitions, and quantum scattering.
+
+There are a couple of different elements to the guidebook. There are Example Problems.
+
+\begin{example} You should work through these on your own and make sure you understand every step.
+\end{example}
+\arnote[-3cm]{Furthermore, I've put reminders to be an Active Reader. That means there are missing steps in my work. I've given you the starting point and the ending point. If you can't work out all the steps on your own, then we'll need work on these together. I expect you to come to class prepared to talk about each of these.}
+
+Finally, I've added practice for you. These are essentially exercises.
+
+\begin{exercise}
+This means that they are designed to help you get stronger and to practice vital skills. They will be due the next day of class.
+\end{exercise}
+
+%----------------------------------------------------------------------------------------
+
+\mainmatter
+
+%----------------------------------------------------------------------------------------
+%	PART 1
+%----------------------------------------------------------------------------------------
+\input{part1}
+
+%----------------------------------------------------------------------------------------
+%	PART 2
+%----------------------------------------------------------------------------------------
+\input{part2}
+
+
+%----------------------------------------------------------------------------------------
+%	PART 3
+%----------------------------------------------------------------------------------------
+\input{part3}
+
+%----------------------------------------------------------------------------------------
+%	PART 4
+%----------------------------------------------------------------------------------------
+\input{part4}
+
+%----------------------------------------------------------------------------------------
+% Quantum Mechanic's Toolbox
+%----------------------------------------------------------------------------------------
+\input{toolbox}
+
+
+
+%----------------------------------------------------------------------------------------
+% End of text
+%----------------------------------------------------------------------------------------
+
+%\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%\bibliography{bibliography} % Use the bibliography.bib file for the bibliography
+%\bibliographystyle{plainnat} % Use the plainnat style of referencing
+
+%----------------------------------------------------------------------------------------
+
+%\printindex % Print the index at the very end of the document
+
+
+\end{document}
+%sagemathcloud={"latex_command":""}

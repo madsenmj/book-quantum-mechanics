@@ -1,0 +1,29 @@
+\begin{tikzpicture}[x=.7ex,y=.7ex]
+  
+  
+  \begin{scope}[very thin]
+   
+   \draw[postaction={black!20,fill},rounded corners=2,thick] (1.2,.6)--(-1.2,.6)--(-1.2,-.6)--(1.2,-.6)--cycle
+   (0,2.4)ellipse(2 and 2.5);
+
+
+\draw[fill=white,rounded corners=2] (0,2.5) ellipse (1.8 and 2.0);
+
+\draw (0,2.5) ellipse(0.8 and 1.6);
+\draw[rotate around={60:(0,2.5)}] (0,2.5) ellipse(0.8 and 1.6);
+\draw[rotate around={120:(0,2.5)}] (0,2.5) ellipse(0.8 and 1.6);
+
+\shade[shading=radial,inner color=cyan,outer color= white](0,2.5)circle(.4);
+        
+
+        \filldraw[fill=green] (-.8,-.1) circle (0.25);
+        \filldraw[fill=blue] (.8,-.1) circle (0.25);
+        
+        \begin{scope}[color=cyan]
+            \draw (-.6,0) -- (.6,0);
+            \draw (-.4,.2) -- (.4,.2);
+            \draw (-.6,.4) -- (.6,.4);
+        \end{scope}
+
+    \end{scope}
+\end{tikzpicture}

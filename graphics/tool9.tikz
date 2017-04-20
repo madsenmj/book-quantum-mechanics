@@ -1,0 +1,23 @@
+% tool9
+
+\begin{tikzpicture}[x=0.7ex,y=0.7ex]
+  
+  
+  \begin{scope}[very thin]
+\filldraw[draw=blue,fill=black!20,thick] (-3,0) -- (3,0) -- (0,5.2)--cycle;   
+   
+\filldraw[fill=green,rounded corners=1,shift={(0,1)}] (-1,.5) rectangle +(2,.6);
+
+        \filldraw[fill=green] (1.5,.6) circle (0.25);
+        \filldraw[fill=blue] (-1.5,.6) circle (0.25);
+
+    \fill[fill=red,opacity=0.5,rounded corners=1,shift={(0,2.5)}] (0,0) -- (45:3) arc(45:135:3) -- cycle;
+
+        \begin{scope}[color=cyan,shift={(0,1.5)}]
+            \draw (-.6,-.6) -- (.6,-.6);
+            \draw (-.4,-.8) -- (.4,-.8);
+            \draw (-.6,-1) -- (.6,-1);
+        \end{scope}
+
+    \end{scope}
+\end{tikzpicture}

@@ -1,0 +1,659 @@
+
+\hypersetup{colorlinks}
+\usepackage{microtype}
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{bbm}
+
+\usepackage{framed}
+
+%packages for drawing figures.
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{sagetex}
+\usepackage{tikzscale}
+\usetikzlibrary{snakes,calc,3d,shapes,intersections,fadings,decorations.pathreplacing}
+\usepackage{tikz-3dplot}
+
+
+%makes sure tikz plot uses the bounds to plot.
+\def\tikz@plot@samples@recalc#1:#2\relax{%
+  \pgfmathparse{#1}%
+  \let\tikz@temp@start=\pgfmathresult%
+  \pgfmathparse{#2}%
+  \let\tikz@temp@end=\pgfmathresult%
+  \pgfmathparse{\tikz@temp@start+(\tikz@temp@end-\tikz@temp@start)/(\tikz@plot@samples-1)}%
+  \edef\tikz@plot@samplesat{\tikz@temp@start,\pgfmathresult,...,\tikz@temp@end,\tikz@temp@end}%
+}
+
+\usepackage{graphicx} % Needed to insert images into the document
+\graphicspath{{graphics/}{chapter01/figures/}} % Sets the default location of pictures
+
+
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % Improves figure scaling
+
+
+\usepackage{fancyvrb} % Allows customization of verbatim environments
+\fvset{fontsize=\normalsize} % The font size of all verbatim text can be changed here
+
+\newcommand{\hangp}[1]{\makebox[0pt][r]{(}#1\makebox[0pt][l]{)}} % New command to create parentheses around text in tables which take up no horizontal space - this improves column spacing
+\newcommand{\hangstar}{\makebox[0pt][l]{*}} % New command to create asterisks in tables which take up no horizontal space - this improves column spacing
+
+\usepackage{xspace} % Used for printing a trailing space better than using a tilde (~) using the \xspace command
+
+\newcommand{\monthyear}{\ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi\space\number\year} % A command to print the current month and year
+
+\newcommand{\openepigraph}[2]{ % This block sets up a command for printing an epigraph with 2 arguments - the quote and the author
+\begin{fullwidth}
+\sffamily\large
+\begin{doublespace}
+\noindent\allcaps{#1}\\ % The quote
+\noindent\allcaps{#2} % The author
+\end{doublespace}
+\end{fullwidth}
+}
+
+\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage} % Command to insert a blank page
+
+\usepackage{units} % Used for printing standard units
+
+\newcommand{\hlred}[1]{\textcolor{Maroon}{#1}} % Print text in maroon
+\newcommand{\hangleft}[1]{\makebox[0pt][r]{#1}} % Used for printing commands in the index, moves the slash left so the command name aligns with the rest of the text in the index
+\newcommand{\hairsp}{\hspace{1pt}} % Command to print a very short space
+\newcommand{\ie}{\textit{i.\hairsp{}e.}\xspace} % Command to print i.e.
+\newcommand{\eg}{\textit{e.\hairsp{}g.}\xspace} % Command to print e.g.
+\newcommand{\na}{\quad--} % Used in tables for N/A cells
+\newcommand{\measure}[3]{#1/#2$\times$\unit[#3]{pc}} % Typesets the font size, leading, and measure in the form of: 10/12x26 pc.
+\newcommand{\tuftebs}{\symbol{'134}} % Command to print a backslash in tt type in OT1/T1
+
+\providecommand{\XeLaTeX}{X\lower.5ex\hbox{\kern-0.15em\reflectbox{E}}\kern-0.1em\LaTeX}
+\newcommand{\tXeLaTeX}{\XeLaTeX\index{XeLaTeX@\protect\XeLaTeX}} % Command to print the XeLaTeX logo while simultaneously adding the position to the index
+
+\newcommand{\doccmdnoindex}[2][]{\texttt{\tuftebs#2}} % Command to print a command in texttt with a backslash of tt type without inserting the command into the index
+
+\newcommand{\doccmddef}[2][]{\hlred{\texttt{\tuftebs#2}}\label{cmd:#2}\ifthenelse{\isempty{#1}} % Command to define a command in red and add it to the index
+{ % If no package is specified, add the command to the index
+\index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2}}% Command name
+}
+{ % If a package is also specified as a second argument, add the command and package to the index
+\index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2} (\texttt{#1} package)}% Command name
+\index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}% Package name
+}}
+
+\newcommand{\doccmd}[2][]{% Command to define a command and add it to the index
+\texttt{\tuftebs#2}%
+\ifthenelse{\isempty{#1}}% If no package is specified, add the command to the index
+{%
+\index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2}}% Command name
+}
+{%
+\index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2} (\texttt{#1} package)}% Command name
+\index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}% Package name
+}}
+
+% A bunch of new commands to print commands, arguments, environments, classes, etc within the text using the correct formatting
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}
+\newenvironment{docspec}{\begin{quotation}\ttfamily\parskip0pt\parindent0pt\ignorespaces}{\end{quotation}}
+\newcommand{\docenv}[1]{\texttt{#1}\index{#1 environment@\texttt{#1} environment}\index{environments!#1@\texttt{#1}}}
+\newcommand{\docenvdef}[1]{\hlred{\texttt{#1}}\label{env:#1}\index{#1 environment@\texttt{#1} environment}\index{environments!#1@\texttt{#1}}}
+\newcommand{\docpkg}[1]{\texttt{#1}\index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}}
+\newcommand{\doccls}[1]{\texttt{#1}}
+\newcommand{\docclsopt}[1]{\texttt{#1}\index{#1 class option@\texttt{#1} class option}\index{class options!#1@\texttt{#1}}}
+\newcommand{\docclsoptdef}[1]{\hlred{\texttt{#1}}\label{clsopt:#1}\index{#1 class option@\texttt{#1} class option}\index{class options!#1@\texttt{#1}}}
+\newcommand{\docmsg}[2]{\bigskip\begin{fullwidth}\noindent\ttfamily#1\end{fullwidth}\medskip\par\noindent#2}
+\newcommand{\docfilehook}[2]{\texttt{#1}\index{file hooks!#2}\index{#1@\texttt{#1}}}
+\newcommand{\doccounter}[1]{\texttt{#1}\index{#1 counter@\texttt{#1} counter}}
+
+\usepackage{makeidx} % Used to generate the index
+\makeindex % Generate the index which is printed at the end of the document
+
+% This block contains a number of shortcuts used throughout the book
+\newcommand{\TL}{Tufte-\LaTeX\xspace}
+\newcommand{\CAS}{C.A.S.\xspace}
+
+
+% add numbers to chapters, sections
+\setcounter{secnumdepth}{1}
+
+\usepackage{xcolor} % for colour
+\usepackage{lipsum} % just for sample text
+
+% part format
+\titleclass{\part}{top}
+\titleformat{\part}%
+  {\huge\rmfamily\itshape\color{green}}% format applied to label+text
+  {\llap{\colorbox{green}{\parbox{2.5cm}{\hfill\itshape\huge\color{white} Part \thepart}}}}% label
+  {2pt}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+% chapter format
+\titleformat{\chapter}%
+  {\huge\rmfamily\itshape\color{blue}}% format applied to label+text
+  {\llap{\colorbox{blue}{\parbox{1.5cm}{\hfill\itshape\huge\color{white}\thechapter}}}}% label
+  {2pt}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+% section format
+\titleformat{\section}%
+  {\normalfont\Large\itshape\color{orange}}% format applied to label+text
+  {\llap{\colorbox{orange}{\parbox{1.5cm}{\hfill\color{white}\thesection}}}}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+% subsection format
+\titleformat{\subsection}%
+  {\normalfont\large\itshape\color{red}}% format applied to label+text
+  {\llap{\colorbox{red}{\parbox{1.5cm}{\hfill\color{white}\thesubsection}}}}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% The changebar package allows colored bars along the text
+% edge for setting off examples and derivations.  However,
+% it also puts bars next to footnotes, which is undesired
+% for this class, so we "undo" that functionality with the
+% following hack
+\let\textbookcls@footnotetext\@footnotetext
+\let\textbookcls@mpfootnotetext\@mpfootnotetext
+
+\usepackage{ifpdf}
+\usepackage{tocloft}
+
+\usepackage{hyperref}
+\numberwithin{equation}{chapter}
+\usepackage{cleveref}
+
+%this should fix the spsp pages at the end due to changebar
+%\makeatletter
+\AtEndDocument{%
+\def\cb@checkPdfxy#1#2#3#4#5{%
+\cb@@findpdfpoint{#1}{#2}%
+\ifdim#3sp=\cb@pdfx\relax      % <<-- original has \ifnum#3=\cb@pdfx
+\ifdim#4sp=\cb@pdfy\relax      % <<-- original has \ifnum#4=\cb@pdfy
+\ifdim#5=\cb@pdfz\relax
+\else
+\cb@error
+\fi
+\else
+\cb@error
+\fi
+\else
+\cb@error
+\fi
+}}
+%\makeatother
+
+
+\usepackage[leftbars,color]{changebar}
+
+\let\@footnotetext\textbookcls@footnotetext
+\let\@mpfootnotetext\textbookcls@mpfootnotetext
+
+
+ \setlength{\changebarsep}{-1pt}
+ \setlength{\changebarwidth}{2pt}
+ \definecolor{BarColor}{rgb}{.1,.3,.6}
+ \definecolor{ARColor}{rgb}{.5,.0,.5}
+ \definecolor{ToolColor}{rgb}{1,0,0}
+
+% \definecolor{DeriveColor}{rgb}{.8,.3,.6}
+ \definecolor{DeriveColor}{rgb}{.85,.2,.25}
+ \definecolor{ExColor}{rgb}{0.1,.6,.12}
+ \definecolor{TBColor}{rgb}{0.9,.9,0.0}
+ \cbcolor{BarColor}
+
+%example environment
+\newcounter{example}[chapter]
+\renewcommand{\theexample}{\thechapter.\arabic{example}}
+
+\ifpdf
+    \renewcommand{\theHexample}{\thechapter.\arabic{example}} %This is needed to keep unique links for hyperref
+\fi
+
+\newenvironment{example}
+    {\cbcolor{BarColor}\par \vspace{10pt} \cbstart
+    \begin{enumerate}\item[]
+     \refstepcounter{example}\noindent\color{BarColor}\large\textbf{Example
+     \theexample} \normalsize\color{black} } {\end{enumerate} \cbend{}\par \vspace{8pt}}
+
+%-----------------------------------------------------------
+% Active reader margin note environmnet arnote{}
+%-----------------------------------------------------------
+
+\newcommand*{\@tufte@arnote@justification}{\@tufte@justification@autodetect}
+\define@choicekey*+[tufte]{common}{arnote}[\@tufte@kvtext\@tufte@kvnum]{justified,raggedleft,raggedright,raggedouter,auto}[auto]{%
+  \ifcase\@tufte@kvnum\relax
+    \renewcommand*{\@tufte@arnote@justification}{\justifying}% justified
+  \or
+    \renewcommand*{\@tufte@arnote@justification}{\RaggedLeft}% ragged left
+  \or
+    \renewcommand*{\@tufte@arnote@justification}{\RaggedRight}% ragged right
+  \or
+    \renewcommand*{\@tufte@arnote@justification}{\@tufte@justification@outer}% ragged outer (flush right on verso pages, flush left on recto pages)
+  \or
+    \renewcommand*{\@tufte@arnote@justification}{\@tufte@justification@autodetect}% autodetects best justification mode based on all class options
+  \fi
+}{%
+  \TufteWarningNL{Invalid option `#1' for arnote key.\MessageBreak Must be one of: justified, raggedleft,\MessageBreak raggedright, raggedouter, auto}
+  \renewcommand*{\@tufte@arnote@justification}{\@tufte@justification@autodetect}% autodetects best justification mode based on all class options
+}
+
+%-----------------------------------------------------------
+% Tool margin note environmnet toolnote{}
+%-----------------------------------------------------------
+
+\newcommand*{\@tufte@toolnote@justification}{\@tufte@justification@autodetect}
+\define@choicekey*+[tufte]{common}{arnote}[\@tufte@kvtext\@tufte@kvnum]{justified,raggedleft,raggedright,raggedouter,auto}[auto]{%
+  \ifcase\@tufte@kvnum\relax
+    \renewcommand*{\@tufte@toolnote@justification}{\justifying}% justified
+  \or
+    \renewcommand*{\@tufte@toolnote@justification}{\RaggedLeft}% ragged left
+  \or
+    \renewcommand*{\@tufte@toolnote@justification}{\RaggedRight}% ragged right
+  \or
+    \renewcommand*{\@tufte@toolnote@justification}{\@tufte@justification@outer}% ragged outer (flush right on verso pages, flush left on recto pages)
+  \or
+    \renewcommand*{\@tufte@toolnote@justification}{\@tufte@justification@autodetect}% autodetects best justification mode based on all class options
+  \fi
+}{%
+  \TufteWarningNL{Invalid option `#1' for arnote key.\MessageBreak Must be one of: justified, raggedleft,\MessageBreak raggedright, raggedouter, auto}
+  \renewcommand*{\@tufte@toolnote@justification}{\@tufte@justification@autodetect}% autodetects best justification mode based on all class options
+}
+
+% The ``marginals'' key simultaneously sets the same justification for all marginal material
+\define@choicekey*+[tufte]{common}{marginals}[\@tufte@kvtext\@tufte@kvnum]{justified,raggedleft,raggedright,raggedouter,auto}[auto]{%
+  \ifcase\@tufte@kvnum\relax
+    \ExecuteOptionsX[tufte]<common>{citation=justified,sidenote=justified,caption=justified,marginnote=justified,arnote=justified,toolnote=justified}% justified
+  \or
+    \ExecuteOptionsX[tufte]<common>{citation=raggedleft,sidenote=raggedleft,caption=raggedleft,marginnote=raggedleft,arnote=raggedleft,toolnote=raggedleft}% ragged left
+  \or
+    \ExecuteOptionsX[tufte]<common>{citation=raggedright,sidenote=raggedright,caption=raggedright,marginnote=raggedright,arnote=raggedright,toolnote=raggedright}% ragged right
+  \or
+    \ExecuteOptionsX[tufte]<common>{citation=raggedouter,sidenote=raggedouter,caption=raggedouter,marginnote=raggedouter,arnote=raggedouter,toolnote=raggedouter}% ragged outer (flush right on verso pages, flush left on recto pages)
+  \or
+    \ExecuteOptionsX[tufte]<common>{citation=auto,sidenote=auto,caption=auto,marginnote=auto,arnote=auto,toolnote=auto}% autodetects best justification mode based on all class options
+  \fi
+}{%
+  \TufteWarningNL{Invalid option `#1' for marginals key.\MessageBreak Must be one of: justified, raggedleft,\MessageBreak raggedright, raggedouter, auto}
+  \ExecuteOptionsX[tufte]<common>{citation=auto,sidenote=auto,caption=auto,marginnote=auto,arnote=auto,toolnote=auto}% autodetects best justification mode based on all class options
+}
+
+\newcommand*{\@tufte@arnote@font}{\@tufte@marginfont}
+\newcommand*{\setarnotefont}[1]{\renewcommand*{\@tufte@arnote@font}{#1}}
+\newcommand*{\@tufte@toolnote@font}{\@tufte@marginfont}
+\newcommand*{\settoolnotefont}[1]{\renewcommand*{\@tufte@toolnote@font}{#1}}
+
+
+% Same format as marginnote
+\newcounter{actread}[chapter]
+\renewcommand{\theactread}{\thechapter.\arabic{actread}}
+\usepackage{ifpdf}
+\ifpdf
+    \renewcommand{\theHactread}{\thechapter.\arabic{actread}} %This is needed to keep unique links for hyperref
+\fi
+\newcommand\arnote[2][0pt]{%
+  \let\cite\@tufte@infootnote@cite%   use the in-sidenote \cite command
+  \gdef\@tufte@citations{}%           clear out any old citations
+  \@tufte@margin@par%                 use parindent and parskip settings for marginal text
+  \marginpar{\hbox{}\vspace*{#1}\@tufte@arnote@font\@tufte@arnote@justification\vspace*{-1\baselineskip}\noindent
+   \refstepcounter{actread}\color{ARColor}\large\textbf{Active Reading \theactread :} \normalsize\color{black} #2 }%
+  \@tufte@reset@par%                  use parindent and parskip settings for body text
+  \@tufte@print@citations%            print any citations
+  \let\cite\@tufte@normal@cite%       go back to using normal in-text \cite command
+}
+
+
+\newcommand\toolnote[2][0pt]{%
+  \let\cite\@tufte@infootnote@cite%   use the in-sidenote \cite command
+  \gdef\@tufte@citations{}%           clear out any old citations
+  \@tufte@margin@par%                 use parindent and parskip settings for marginal text
+  \marginpar{\hbox{}\vspace*{#1}\@tufte@arnote@font\@tufte@arnote@justification\vspace*{-1\baselineskip}\noindent \color{ToolColor}\normalsize\textbf{Quantum Mechanic's Toolbox: } \normalsize\color{black} #2}%
+  \@tufte@reset@par%                  use parindent and parskip settings for body text
+  \@tufte@print@citations%            print any citations
+  \let\cite\@tufte@normal@cite%       go back to using normal in-text \cite command
+}
+
+
+
+
+\newcommand{\exProblem}{\par\vspace{2pt}\small\noindent\noindent}
+\newcommand{\exSolution}{\par\vspace{10pt}\noindent\textbf{Solution:} }
+
+\newenvironment{derivation}[1]
+    {\cbcolor{DeriveColor}\par \vspace{10pt}
+     \cbstart
+    \begin{enumerate}\item[]
+     \noindent\textbf{#1}
+     \par\vspace{5pt}\small\noindent
+    } {\end{enumerate} \cbend\par \vspace{10pt}}
+
+
+%-----------------------------------------------------------
+% exercise environment
+%-----------------------------------------------------------
+
+\newcounter{exercise}[chapter]
+\renewcommand{\theexercise}{\thechapter.\arabic{exercise}}
+
+\ifpdf
+    \renewcommand{\theHexample}{\thechapter.\arabic{exercise}} %This is needed to keep unique links for hyperref
+\fi
+
+\newenvironment{exercise}
+    {
+    %\noindent\textcolor{ExColor}{\rule{\textwidth}{2pt}}\par
+    \cbcolor{ExColor}\par \vspace{10pt} \cbstart
+    \begin{enumerate}\item[]
+     \refstepcounter{exercise}\noindent\color{ExColor}\large\textbf{Exercise
+     \theexercise} \normalsize\color{black} } {\end{enumerate}
+      \cbend{}\par \vspace{8pt} }%\noindent\textcolor{ExColor}{\rule{\textwidth}{2pt}}\par
+
+
+
+%-----------------------------------------------------------
+% Tactics Box environment
+%-----------------------------------------------------------
+
+\newcounter{tactics}[chapter]
+\renewcommand{\thetactics}{\thechapter.\arabic{tactics}}
+
+\newenvironment{tacticsbox}{%
+   \def\FrameCommand{\colorbox{TBColor}}%
+   \MakeFramed{\advance\hsize-\width \FrameRestore \refstepcounter{tactics} \noindent \textbf{Technique
+     \thetactics:}}}
+ {\endMakeFramed}
+
+
+\newcommand{\ExSection}[1][ ]{
+    \clearpage
+    \section*{Exercises}
+    \markright{Exercises}
+    \addcontentsline{toc}{section}{Exercises}
+    \WriteChap{Chapter \thechapter\ Solutions}
+    }
+
+%\newenvironment{exercises}[1]
+%    {\noindent \subsubsection[Exercises]{\emph{Exercises for \ref{#1} \nameref{#1} }}
+%     \begin{list}{\textbf{P\arabic{problem}\hfill}}{
+%        \setlength{\listparindent}{0in}
+%        \setlength{\labelwidth}{0.5in}
+%        \setlength{\itemindent}{0in}
+%        \setlength{\leftmargin}{0.65in}}
+%    }
+%    {\end{list}}
+
+\newenvironment{review}[1]
+    {\noindent \subsubsection*{#1}
+     \begin{list}{\textbf{R\arabic{revproblem}\hfill}}{
+        \setlength{\listparindent}{0in}
+        \setlength{\labelwidth}{0.5in}
+        \setlength{\itemindent}{0in}
+        \setlength{\leftmargin}{0.65in}}
+    }
+    {\end{list}}
+
+ \newwrite\solutions
+ \immediate\openout\solutions=\jobname.sln
+ \newcommand{\WritePLine}[2]{
+    \immediate\write\solutions{\string\section*{#1 {\string\footnotesize (#2) \string\normalsize}}}
+    \immediate\write\solutions{ \string\addcontentsline{toc}{section}{#2}}
+    \immediate\write\solutions{ \string\begin{itemize}}
+    \immediate\write\solutions{ \string\item[]}
+    \immediate\write\solutions{ \string\InputIfFileExists{solutions/#2}{}{No Solution File Found}}
+    \immediate\write\solutions{ \string\markboth{Solutions for Chapter \string\thechapter}{#1}}
+    \immediate\write\solutions{ \string\end{itemize} \string\hrule}
+    }
+
+ \newcommand{\WriteChap}[1]{
+    \immediate\write\solutions{\string\chapter*{#1}}
+    \immediate\write\solutions{\string\addcontentsline{toc}{chapter}{#1}}
+    }
+
+
+\newcommand{\listproblemname}{}
+\newlistof[chapter]{problem}{prb}{\listproblemname}
+
+\newcommand{\prob}[1][prob:P\theproblem]
+    {\phantomsection \refstepcounter{problem}\WritePLine{P\theproblem}{#1}
+     \item[\textbf{P\theproblem}\hfill]\label{#1}}
+
+\newcounter{subproblem}[problem]
+\renewcommand{\thesubproblem}{\theproblem(\alph{subproblem})}
+\renewcommand{\theHsubproblem}{\theproblem(\alph{subproblem})} %This is needed to keep unique links for hyperref
+\newcommand{\subprob}{\refstepcounter{subproblem}\item[(\alph{subproblem})]}
+
+
+\newcommand{\lab}[1]
+    {\refstepcounter{problem}\WritePLine{L\theproblem}{#1}
+     \item[\textbf{L\theproblem}\hfill]\label{#1}}
+
+\newcounter{revprob}
+
+\newcommand{\rev}[1]
+    {\refstepcounter{revprob}\WritePLine{R\therevprob}{#1}
+     \item[\textbf{R\therevprob}\hfill]\label{#1}}
+
+\newenvironment{solution}
+    {\par \rule{4.35in}{0.25pt} \nopagebreak \par
+    \nopagebreak \scriptsize Solution: \nopagebreak   }
+    {\par \nopagebreak \rule{4.35in}{0.25pt} \par \normalsize}
+
+\newenvironment{answer}
+    {\par \scriptsize Answer:}
+    {\par \normalsize}
+
+
+
+%%
+% Set the font sizes and baselines to match Tufte's books
+\renewcommand\normalsize{%
+   \@setfontsize\normalsize\@xpt{14}%
+   \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
+   \abovedisplayshortskip \z@ \@plus3\p@
+   \belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
+   \belowdisplayskip \abovedisplayskip
+   \let\@listi\@listI}
+\normalbaselineskip=14pt
+\normalsize
+\renewcommand\small{%
+   \@setfontsize\normalsize\@xpt{14}%
+   \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
+   \abovedisplayshortskip \z@ \@plus3\p@
+   \belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
+   \belowdisplayskip \abovedisplayskip
+}
+\renewcommand\footnotesize{%
+   \@setfontsize\normalsize\@xpt{14}%
+   \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
+   \abovedisplayshortskip \z@ \@plus3\p@
+   \belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
+   \belowdisplayskip \abovedisplayskip
+}
+\renewcommand\scriptsize{\@setfontsize\scriptsize\@viipt\@viiipt}
+\renewcommand\tiny{\@setfontsize\tiny\@vpt\@vipt}
+\renewcommand\large{\@setfontsize\large\@xipt{15}}
+\renewcommand\Large{\@setfontsize\Large\@xiipt{16}}
+\renewcommand\LARGE{\@setfontsize\LARGE\@xivpt{18}}
+\renewcommand\huge{\@setfontsize\huge\@xxpt{30}}
+\renewcommand\Huge{\@setfontsize\Huge{24}{36}}
+
+\setlength\leftmargini   {1pc}
+\setlength\leftmarginii  {1pc}
+\setlength\leftmarginiii {1pc}
+\setlength\leftmarginiv  {1pc}
+\setlength\leftmarginv   {1pc}
+\setlength\leftmarginvi  {1pc}
+\setlength\labelsep      {.5pc}
+\setlength\labelwidth    {\leftmargini}
+\addtolength\labelwidth{-\labelsep}
+
+%-----------------------------------------------------------
+% Tool Label command
+%-----------------------------------------------------------
+\newcommand{\toollabel}[2]{%
+   \protected@write \@auxout {}{\string \newlabel {#1}{{#2}{\thepage}{#2}{#1}{}} }%
+   \hypertarget{#1}{#2}
+}
+
+%-----------------------------------------------------------
+% math nodets for putting margin notes in equations.
+% note: can't use these with equation numbers!
+%-----------------------------------------------------------
+\def\mathnote#1{%
+  \tag*{\rlap{\hspace\marginparsep\smash{\parbox[t]{\marginparwidth}{%
+  \footnotesize#1}}}}
+}
+
+%-----------------------------------------------------------
+% Math shortcuts
+%-----------------------------------------------------------
+\newcommand{\abs}[1]{\left|{#1}\right|}
+\newcommand{\ket}[1]{\left|{#1}\right\rangle}
+\newcommand{\bra}[1]{\left\langle{#1}\right|}
+\newcommand{\avg}[1]{\left\langle{#1}\right\rangle}
+\newcommand{\oprod}[2]{\ket{#1}\mkern-6mu\bra{#2}}
+
+\newcommand{\rmt}[1]{\textrm{#1}}
+
+\newcommand{\com}[1]{\left[#1\right]}
+
+\newcommand{\I}{i}
+\newcommand{\E}[1]{e^{#1}}
+
+\newcommand{\szmatrix}{\begin{pmatrix}1&0\\0&-1\end{pmatrix}}
+\newcommand{\sxmatrix}{\begin{pmatrix}0&1\\1&0\end{pmatrix}}
+\newcommand{\symatrix}{\begin{pmatrix}0&-\I\\\I&0\end{pmatrix}}
+
+\newcommand{\onehat}{\hat{\mathbbm{1}}}
+
+\newcommand{\Tr}{\rmt{Tr}}
+\newcommand{\Pd}{{\cal P}}
+
+\newcommand{\intii}{\int\displaylimits_{-\infty}^{\infty}}
+
+\newcommand{\Ap}{\hat{\cal A}_{+}\mkern-1mu}
+\newcommand{\Am}{\hat{\cal A}_{-}\mkern-1mu}
+\newcommand{\Apm}{\hat{\cal A}_{\pm}\mkern-1mu}
+
+\newcommand{\EAp}{\hat{\vphantom{\scalebox{1.1}{A}} \mathbbm{A}}_{+}}
+\newcommand{\EAm}{\hat{\vphantom{\scalebox{1.1}{A}}\mathbbm{A}}_{-}}
+\newcommand{\EApm}{\hat{\vphantom{\scalebox{1.1}{A}}\mathbbm{A}}_{\pm}}
+\newcommand{\EN}{\hat{\mathbbm{N}}}
+
+
+
+\newcommand{\Ja}{\rmt{\fontfamily{cmr}\selectfont \textit{J}}}
+\newcommand{\Jh}{\skew{4}\hat{\Ja}}
+\newcommand{\Jv}{\skew{4}\vec{\Ja}}
+\newcommand{\Jp}{\Jh_{+}\mkern-1mu}
+\newcommand{\Jm}{\Jh_{-}\mkern-1mu}
+\newcommand{\Jpm}{\Jh_{\pm}\mkern-1mu}
+
+\newcommand{\Ylm}{Y_l^{m_l}}
+
+\renewcommand{\dagger}{\rmt{\fontfamily{cmr}\selectfont\textdagger}}
+
+%-----------------------------------------------------------
+% Math environment shortcuts
+%-----------------------------------------------------------
+
+\def\beq#1\eeq{\begin{equation}#1\end{equation}}
+\def\bas#1\eas{\begin{subequations}\begin{align}#1\end{align}\end{subequations}}
+
+\newcommand{\vket}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
+\newcommand{\vbra}[2]{\begin{pmatrix}#1 & #2\end{pmatrix}}
+
+\newcommand{\Meq}{\Rightarrow}
+
+
+\newcommand{\model}{{\bf Model:}\xspace}
+\newcommand{\vis}{{\bf Visualization:}\xspace}
+\newcommand{\sol}{{\bf Solution:}\xspace}
+\newcommand{\assess}{{\bf Assess:}\xspace}
+
+
+\newcommand{\hwp}{$\lambda/2$-plate\xspace}
+\newcommand{\qwp}{$\lambda/4$-plate\xspace}
+\newcommand{\stwo}{\sqrt{2}}
+
+
+
+
+
+\newcommand{\highlight}[2][yellow]{\mathchoice%
+  {\colorbox{#1}{$\displaystyle#2$}}%
+  {\colorbox{#1}{$\textstyle#2$}}%
+  {\colorbox{#1}{$\scriptstyle#2$}}%
+  {\colorbox{#1}{$\scriptscriptstyle#2$}}}%
+
+\definecolor{h1color}{rgb}{1,.8,.8}
+\definecolor{h2color}{rgb}{.8,1,.8}
+\definecolor{h3color}{rgb}{.8,.8,1}
+\definecolor{h4color}{rgb}{1,1,.8}
+
+
+
+%-----------------------------------------------------------
+% Tikz Drawing shortcuts
+%-----------------------------------------------------------
+
+
+\newcommand{\detector}[4]
+{
+  % this needed to be modified somehow...
+  \begin{scope}[scale=#1,shift={(#2,#3)}]
+      \begin{scope}[rotate around={#4:(0,0)}]
+      \filldraw[fill=black!20] (0,.5) -- (0,-.5) -- (0,-.5) arc(-90:90:.5);
+      \draw[thick] plot[smooth] coordinates{(0.5,0)(.75,.2)(1.0,-.2)(1.5,0)};
+      \end{scope}
+  \end{scope}
+}
+
+
+\newcommand\pgfmathsinandcos[3]{%
+  \pgfmathsetmacro#1{sin(#3)}%
+  \pgfmathsetmacro#2{cos(#3)}%
+}
+\newcommand\LongitudePlane[3][current plane]{%
+  \pgfmathsinandcos\sinEl\cosEl{#2} % elevation
+  \pgfmathsinandcos\sint\cost{#3} % azimuth
+  \tikzset{#1/.style={cm={\cost,\sint*\sinEl,0,\cosEl,(0,0)}}}
+}
+\newcommand\LatitudePlane[3][current plane]{%
+  \pgfmathsinandcos\sinEl\cosEl{#2} % elevation
+  \pgfmathsinandcos\sint\cost{#3} % latitude
+  \pgfmathsetmacro\yshift{\cosEl*\sint}
+  \tikzset{#1/.style={cm={\cost,0,0,\cost*\sinEl,(0,\yshift)}}} %
+}
+\newcommand\DrawLongitudeCircle[2][1]{
+  \LongitudePlane{\angEl}{#2}
+  \tikzset{current plane/.prefix style={scale=#1}}
+   % angle of "visibility"
+  \pgfmathsetmacro\angVis{atan(sin(#2)*cos(\angEl)/sin(\angEl))} %
+  \draw[current plane] (\angVis:1) arc (\angVis:\angVis+180:1);
+  \draw[current plane,dashed] (\angVis-180:1) arc (\angVis-180:\angVis:1);
+}
+\newcommand\DrawLatitudeCircle[2][1]{
+  \LatitudePlane{\angEl}{#2}
+  \tikzset{current plane/.prefix style={scale=#1}}
+  \pgfmathsetmacro\sinVis{sin(#2)/cos(#2)*sin(\angEl)/cos(\angEl)}
+  % angle of "visibility"
+  \pgfmathsetmacro\angVis{asin(min(1,max(\sinVis,-1)))}
+  \draw[current plane] (\angVis:1) arc (\angVis:-\angVis-180:1);
+  \draw[current plane,dashed] (180-\angVis:1) arc (180-\angVis:\angVis:1);
+}
+
+
+
+
+%sagemathcloud={"latex_command":""}

@@ -1,0 +1,19 @@
+\begin{tikzpicture}[x=.7ex,y=.7ex]
+    \begin{scope}[rotate=0,very thin]
+        \filldraw[fill=black!20,rounded corners=1] (-235:3) arc (-235:55:3) -- (55:2) arc(55:125:2)--cycle;
+        \shade [bottom color=blue,top color=white](55:2) -- (55:3) decorate[decoration={snake,amplitude=1,segment length=2}]{-- (55:3)arc(55:125:3)}--(125:2) --(125:2)arc(125:55:2);
+        \filldraw[fill=white,rounded corners=1] (2,-1) rectangle +(0.4,2);
+        \filldraw[fill=white,rounded corners=1] (-2,-1) rectangle +(-0.4,2);
+        \filldraw[fill=blue] (1.4,0.75) circle (0.25);
+        \filldraw[fill=green] (1.4,-0.75) circle (0.25);
+        \filldraw[fill=green] (-1.4,0.75) circle (0.25);
+        \filldraw[fill=blue] (-1.4,-0.75) circle (0.25);
+        
+        \begin{scope}[color=cyan]
+            \draw (0.5,-1) -- (0.5,1);
+            \draw (0,-.25) -- (0,.25);
+            \draw (-0.5,-1) -- (-0.5,1);
+        \end{scope}
+
+    \end{scope}
+\end{tikzpicture}

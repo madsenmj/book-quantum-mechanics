@@ -1,0 +1,4474 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 DEC 2016 10:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**phy315book.tex
+(./phy315book.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./tufte-book.cls
+Document Class: tufte-book 2009/12/11 v3.5.0 Tufte-book class
+(./tufte-common.def
+File: tufte-common.def 2009/12/11 v3.5.0 Common code for the Tufte-LaTeX styles
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count80
+\calc@Bcount=\count81
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count82
+\calc@Cskip=\skip43
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+Class tufte-book Info: Passing oneside to the `book' class..
+Class tufte-book Info: Passing openany to the `book' class..
+Class tufte-book Info: Loading the base class `book'.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count83
+\c@chapter=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks16
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen110
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count94
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4322.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2016/05/05 v6.83n Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count95
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count96
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count97
+\c@Item=\count98
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count99
+\c@bookmark@seq@number=\count100
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count104
+\cp@tempcnt=\count105
+)
+\@tufte@overhang=\skip63
+\@tufte@fullwidth=\skip64
+\@tufte@caption@fill=\skip65
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2015/12/30 v2.5 Extended list environments
+\pltopsep=\skip66
+\plpartopsep=\skip67
+\plitemsep=\skip68
+\plparsep=\skip69
+\pl@lab=\toks18
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/letterspace.sty
+Package: letterspace 2016/05/14 v2.6a Robust letterspacing (RS)
+LaTeX Info: Redefining \lsstyle on input line 346.
+LaTeX Info: Redefining \lslig on input line 347.
+LaTeX Info: Redefining \textls on input line 372.
+\MT@outer@kern=\dimen123
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip70
+\bibsep=\skip71
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count106
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+No file phy315book.bbl.
+\c@@tufte@num@bibkeys=\count107
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
+Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
+)
+\@tufte@sidenote@vertical@offset=\skip72
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\@tufte@margin@floatbox=\box27
+\@tufte@figure@box=\box28
+\@tufte@caption@box=\box29
+\@tufte@caption@vertical@offset=\skip73
+\@tufte@float@contents@width=\skip74
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip75
+\f@ncyO@elh=\skip76
+\f@ncyO@erh=\skip77
+\f@ncyO@olh=\skip78
+\f@ncyO@orh=\skip79
+\f@ncyO@elf=\skip80
+\f@ncyO@erf=\skip81
+\f@ncyO@olf=\skip82
+\f@ncyO@orf=\skip83
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count108
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+\langwohyphens=\language83
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count109
+\mult@box=\box30
+\multicol@leftmargin=\dimen124
+\c@unbalance=\count110
+\c@collectmore=\count111
+\doublecol@number=\count112
+\multicoltolerance=\count113
+\multicolpretolerance=\count114
+\full@width=\dimen125
+\page@free=\dimen126
+\premulticols=\dimen127
+\postmulticols=\dimen128
+\multicolsep=\skip84
+\multicolbaselineskip=\skip85
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen129
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count115
+\c@finalcolumnbadness=\count116
+\last@try=\dimen130
+\multicolovershoot=\dimen131
+\multicolundershoot=\dimen132
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count117
+))
+(./tufte-book-local.tex
+Package hyperref Info: Option `colorlinks' set `true' on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+\MT@toks=\toks19
+\MT@count=\count118
+LaTeX Info: Redefining \textls on input line 774.
+\MT@outer@kern=\dimen133
+LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
+\MT@listname@count=\count119
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 916.
+LaTeX Info: Redefining \lslig on input line 916.
+\MT@outer@space=\skip86
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen134
+\lightrulewidth=\dimen135
+\cmidrulewidth=\dimen136
+\belowrulesep=\dimen137
+\belowbottomsep=\dimen138
+\aboverulesep=\dimen139
+\abovetopsep=\dimen140
+\cmidrulesep=\dimen141
+\cmidrulekern=\dimen142
+\defaultaddspace=\dimen143
+\@cmidla=\count120
+\@cmidlb=\count121
+\@aboverulesep=\dimen144
+\@belowrulesep=\dimen145
+\@thisruleclass=\count122
+\@lastruleclass=\count123
+\@thisrulewidth=\dimen146
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks20
+\AP@partial=\box56
+\AP@footins=\box57
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip87
+\fb@frw=\dimen147
+\fb@frh=\dimen148
+\FrameRule=\dimen149
+\FrameSep=\dimen150
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box58
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen155
+\pgf@y=\dimen156
+\pgf@xa=\dimen157
+\pgf@ya=\dimen158
+\pgf@xb=\dimen159
+\pgf@yb=\dimen160
+\pgf@xc=\dimen161
+\pgf@yc=\dimen162
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count124
+\c@pgf@countb=\count125
+\c@pgf@countc=\count126
+\c@pgf@countd=\count127
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count128
+\pgfsyssoftpath@bigbuffer@items=\count129
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen163
+\pgfmath@count=\count130
+\pgfmath@box=\box59
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count131
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen182
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen186
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen187
+\pgf@sys@shading@range@num=\count133
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box63
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box64
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count134
+\pgfplotmarksize=\dimen192
+)
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count135
+\tikznumberofchildren=\count136
+\tikznumberofcurrentchild=\count137
+\tikz@fig@count=\count138
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count139
+\pgfmatrixcurrentcolumn=\count140
+\pgf@matrix@numberofcolumns=\count141
+)
+\tikz@expandcount=\count142
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/Users/setup/Library/texmf/tex/generic/sagetex/sagetex.sty
+Package: sagetex 2012/01/16 v2.3.3-69dcb0eb93de embedding Sage into LaTeX docum
+ents
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count143
+\FV@InFile=\read3
+\FV@TabBox=\box69
+\c@FancyVerbLine=\count144
+\FV@StepNumber=\count145
+\FV@OutFile=\write4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count146
+\lst@gtempboxa=\box70
+\lst@token=\toks35
+\lst@length=\count147
+\lst@currlwidth=\dimen199
+\lst@column=\count148
+\lst@pos=\count149
+\lst@lostspace=\dimen256
+\lst@width=\dimen257
+\lst@newlines=\count150
+\lst@lineno=\count151
+\lst@maxwidth=\dimen258
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count152
+\lst@skipnumbers=\count153
+\lst@framebox=\box71
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+\c@ST@inline=\count154
+\c@ST@plot=\count155
+\c@ST@cmdline=\count156
+\sagetexindent=\skip88
+
+(./phy315book.sagetex.sout)
+\sagecommandlineskip=\skip89
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tikzscale/tikzscale.sty
+Package: tikzscale 2013/05/22 v0.2.6 tikzscale LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count157
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count158
+\l_tmpa_int=\count159
+\l_tmpb_int=\count160
+\g_tmpa_int=\count161
+\g_tmpb_int=\count162
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count163
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count164
+\l__iow_target_count_int=\count165
+\l__iow_current_line_int=\count166
+\l__iow_current_word_int=\count167
+\l__iow_current_indentation_int=\count168
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen259
+\c_max_dim=\dimen260
+\l_tmpa_dim=\dimen261
+\l_tmpb_dim=\dimen262
+\g_tmpa_dim=\dimen263
+\g_tmpb_dim=\dimen264
+\c_zero_skip=\skip90
+\c_max_skip=\skip91
+\l_tmpa_skip=\skip92
+\l_tmpb_skip=\skip93
+\g_tmpa_skip=\skip94
+\g_tmpb_skip=\skip95
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count169
+\l_keys_choice_int=\count170
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count171
+\c__fp_middle_shift_int=\count172
+\c__fp_trailing_shift_int=\count173
+\c__fp_big_leading_shift_int=\count174
+\c__fp_big_middle_shift_int=\count175
+\c__fp_big_trailing_shift_int=\count176
+\c__fp_Bigg_leading_shift_int=\count177
+\c__fp_Bigg_middle_shift_int=\count178
+\c__fp_Bigg_trailing_shift_int=\count179
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box72
+\l_tmpa_box=\box73
+\l_tmpb_box=\box74
+\g_tmpa_box=\box75
+\g_tmpb_box=\box76
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box77
+\l__coffin_internal_dim=\dimen265
+\l__coffin_offset_x_dim=\dimen266
+\l__coffin_offset_y_dim=\dimen267
+\l__coffin_x_dim=\dimen268
+\l__coffin_y_dim=\dimen269
+\l__coffin_x_prime_dim=\dimen270
+\l__coffin_y_prime_dim=\dimen271
+\c_empty_coffin=\box78
+\l__coffin_aligned_coffin=\box79
+\l__coffin_aligned_internal_coffin=\box80
+\l_tmpa_coffin=\box81
+\l_tmpb_coffin=\box82
+\l__coffin_display_coffin=\box83
+\l__coffin_display_coord_coffin=\box84
+\l__coffin_display_pole_coffin=\box85
+\l__coffin_display_offset_dim=\dimen272
+\l__coffin_display_x_dim=\dimen273
+\l__coffin_display_y_dim=\dimen274
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen275
+\l__box_bottom_dim=\dimen276
+\l__box_left_dim=\dimen277
+\l__box_right_dim=\dimen278
+\l__box_top_new_dim=\dimen279
+\l__box_bottom_new_dim=\dimen280
+\l__box_left_new_dim=\dimen281
+\l__box_right_new_dim=\dimen282
+\l__box_internal_box=\box86
+\l__coffin_bounding_shift_dim=\dimen283
+\l__coffin_left_corner_dim=\dimen284
+\l__coffin_right_corner_dim=\dimen285
+\l__coffin_bottom_corner_dim=\dimen286
+\l__coffin_top_corner_dim=\dimen287
+\l__coffin_scaled_total_height_dim=\dimen288
+\l__coffin_scaled_width_dim=\dimen289
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count180
+\l__driver_tmp_box=\box87
+))
+Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count181
+\l__xparse_m_args_int=\count182
+\l__xparse_mandatory_args_int=\count183
+\l__xparse_processor_int=\count184
+\l__xparse_v_nesting_int=\count185
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count186
+\decimalpart=\count187
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@forGroupListElement with sig.
+. 'mgu{\tikzscale@endList }' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \elseif with sig. 'mm' on line 88.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \elseif@optional with sig. 'gg' on line 102.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \elseif@absorb with sig. 'g' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfNoValueOrSplitEmptyTF with sig. 'mmm' on line 115.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@includegraphics with sig. 'O{}m' on line 186.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@findExactFileName with sig. 'mm' on line 232.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@setGraphicsPath with sig. '' on line 250.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@isTikzFile with sig. 'mm' on line 260.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@includetikzWithExternalization with sig. 'm' on
+. line 314.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@checkRequestedSizeChanges with sig. '' on line
+. 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@preparePlot with sig. '' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@prepareTikzpicture with sig. '' on line 356.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@includeNormalTikzpicture with sig. 'm' on line
+. 368.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@invalidKeyError with sig. 'm' on line 371.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@includeAxisRatio with sig. 'm' on line 387.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@scaleTikzpictureTo with sig. 'mmm' on line 419.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@resizePlotTo with sig. 'm' on line 475.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@resizePlotWithAxesRatioTo with sig. 'mmmm' on
+. line 517.
+.................................................
+\tikzscale@measuredSize=\box88
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@conditionalDisableExternalization with sig. ''
+. on line 552.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzscale@conditionalEnableExternalization with sig. 'm'
+. on line 564.
+.................................................
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.7)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen290
+\pgfdecoratedremainingdistance=\dimen291
+\pgfdecoratedinputsegmentcompleteddistance=\dimen292
+\pgfdecoratedinputsegmentremainingdistance=\dimen293
+\pgf@decorate@distancetomove=\dimen294
+\pgf@decorate@repeatstate=\count188
+\pgfdecorationsegmentamplitude=\dimen295
+\pgfdecorationsegmentlength=\dimen296
+)
+\tikz@lib@dec@box=\box89
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.shapes.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.shapes.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box90
+\pgfnodeparttwobox=\box91
+\pgfnodepartthreebox=\box92
+\pgfnodepartfourbox=\box93
+\pgfnodeparttwentybox=\box94
+\pgfnodepartnineteenbox=\box95
+\pgfnodeparteighteenbox=\box96
+\pgfnodepartseventeenbox=\box97
+\pgfnodepartsixteenbox=\box98
+\pgfnodepartfifteenbox=\box99
+\pgfnodepartfourteenbox=\box100
+\pgfnodepartthirteenbox=\box101
+\pgfnodeparttwelvebox=\box102
+\pgfnodepartelevenbox=\box103
+\pgfnodeparttenbox=\box104
+\pgfnodepartninebox=\box105
+\pgfnodeparteightbox=\box106
+\pgfnodepartsevenbox=\box107
+\pgfnodepartsixbox=\box108
+\pgfnodepartfivebox=\box109
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryintersections.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
+ctions.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)
+\pgf@intersect@solutions=\count189
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+)) (./tikz-3dplot.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen297
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip96
+\L@UnitsRaiseTextstyle=\skip97
+\L@UnitsRaiseScriptstyle=\skip98
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write6
+\openout6 = `phy315book.idx'.
+
+
+Writing index file phy315book.idx
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count190
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip99
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen298
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen299
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box110
+\strutbox@=\box111
+\big@size=\dimen300
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count196
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip17
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks37
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks38
+\eqnshift@=\dimen301
+\alignsep@=\dimen302
+\tagshift@=\dimen303
+\tagwidth@=\dimen304
+\totwidth@=\dimen305
+\lineht@=\dimen306
+\@envbody=\toks39
+\multlinegap=\skip100
+\multlinetaggap=\skip101
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip102
+\cftbeforetoctitleskip=\skip103
+\cftaftertoctitleskip=\skip104
+\cftbeforepartskip=\skip105
+\cftpartnumwidth=\skip106
+\cftpartindent=\skip107
+\cftbeforechapskip=\skip108
+\cftchapindent=\skip109
+\cftchapnumwidth=\skip110
+\cftbeforesecskip=\skip111
+\cftsecindent=\skip112
+\cftsecnumwidth=\skip113
+\cftbeforesubsecskip=\skip114
+\cftsubsecindent=\skip115
+\cftsubsecnumwidth=\skip116
+\cftbeforesubsubsecskip=\skip117
+\cftsubsubsecindent=\skip118
+\cftsubsubsecnumwidth=\skip119
+\cftbeforeparaskip=\skip120
+\cftparaindent=\skip121
+\cftparanumwidth=\skip122
+\cftbeforesubparaskip=\skip123
+\cftsubparaindent=\skip124
+\cftsubparanumwidth=\skip125
+\cftbeforeloftitleskip=\skip126
+\cftafterloftitleskip=\skip127
+\cftbeforefigskip=\skip128
+\cftfigindent=\skip129
+\cftfignumwidth=\skip130
+\c@lofdepth=\count269
+\c@lotdepth=\count270
+\cftbeforelottitleskip=\skip131
+\cftafterlottitleskip=\skip132
+\cftbeforetabskip=\skip133
+\cfttabindent=\skip134
+\cfttabnumwidth=\skip135
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2230.
+LaTeX Info: Redefining \cref on input line 2230.
+LaTeX Info: Redefining \Cref on input line 2230.
+LaTeX Info: Redefining \crefrange on input line 2230.
+LaTeX Info: Redefining \Crefrange on input line 2230.
+LaTeX Info: Redefining \cpageref on input line 2230.
+LaTeX Info: Redefining \Cpageref on input line 2230.
+LaTeX Info: Redefining \cpagerefrange on input line 2230.
+LaTeX Info: Redefining \Cpagerefrange on input line 2230.
+LaTeX Info: Redefining \labelcref on input line 2230.
+LaTeX Info: Redefining \labelcpageref on input line 2230.
+Package cleveref Info: `listings' support loaded on input line 2950.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/changebar/changebar.sty
+Package: changebar 2005/09/18 v3.5c Indicate changes with marginal bars
+\cb@nextpoint=\count271
+\cb@topleft=\count272
+\cb@topright=\count273
+\cb@botleft=\count274
+\cb@botright=\count275
+\cb@cnta=\count276
+\cb@cntb=\count277
+\cb@dima=\dimen307
+\cb@curbarwd=\dimen308
+\cb@page=\count278
+\cb@pagecount=\count279
+\cb@odd@left=\dimen309
+\cb@odd@right=\dimen310
+\cb@even@left=\dimen311
+\cb@even@right=\dimen312
+\cb@writexy=\write7
+\cb@readxy=\read4
+\openout7 = `phy315book.cb2'.
+
+\changebarwidth=\skip136
+\deletebarwidth=\skip137
+\changebarsep=\skip138
+\c@changebargrey=\count280
+\cb@write=\write8
+\cb@read=\read5
+\openout8 = `phy315book.cb'.
+
+)
+\c@example=\count281
+\c@actread=\count282
+\c@exercise=\count283
+\c@tactics=\count284
+\solutions=\write9
+\openout9 = `phy315book.sln'.
+
+\c@problem=\count285
+\cftbeforeproblemskip=\skip139
+\cftproblemindent=\skip140
+\cftproblemnumwidth=\skip141
+\c@prbdepth=\count286
+\cftbeforeprbtitleskip=\skip142
+\cftafterprbtitleskip=\skip143
+\c@subproblem=\count287
+\c@revprob=\count288
+)
+Class tufte-book Info: Loading tufte-book-local.tex.
+)
+\tikzscale@accuracy=\skip144
+
+(./phy315book.aux)
+\openout1 = `phy315book.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 21.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+\AtBeginShipoutBox=\box112
+Package hyperref Info: Link coloring ON on input line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count289
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+
+(./phy315book.out) (./phy315book.out)
+\@outlinefile=\write10
+\openout10 = `phy315book.out'.
+
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 21.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(72.26999pt, 312.0pt, 230.02501pt)
+* v-part:(T,H,B)=(72.26999pt, 616.0pt, 106.7pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=312.0pt
+* \textheight=616.0pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-42.0pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=144.0pt
+* \marginparsep=24.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 21.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count290
+\scratchdimen=\dimen313
+\scratchbox=\box113
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen314
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks42
+) ABD: EveryShipout initializing macros
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.tikz,.TIKZ,.TikZ,.pgf,.PGF,.png,.pdf,.jpg,.mps,.jpeg,.jb
+ig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count296
+\ST@sf=\write11
+\openout11 = `phy315book.sagetex.sage'.
+
+Package hyperref Info: Option `pageanchor' set `false' on input line 34.
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 48.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+) [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 61.
+ (./phy315book.toc
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 1.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 1.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 1.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 1.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 2.
+ [2])
+\tf@toc=\write12
+\openout12 = `phy315book.toc'.
+
+Package hyperref Info: Option `pageanchor' set `true' on input line 83.
+
+[3]
+Overfull \hbox (0.1342pt too wide) in paragraph at lines 90--91
+\T1/pplj/m/n/10 (+6) philosophy. I enjoyed all of it. This guide will give you 
+the basic tools 
+ []
+
+
+Overfull \hbox (0.12463pt too wide) in paragraph at lines 90--91
+\T1/pplj/m/n/10 (+10) needed to do the theory work as well as give you an idea 
+of how that 
+ []
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+[4
+
+] [5] [6
+
+] (./part1.tex
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 8.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 8.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 8.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 8.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 8.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 8.
+ [7
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 32.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 32.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 32.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 32.
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+[8
+
+]
+Overfull \hbox (32.83447pt too wide) in paragraph at lines 97--104
+  [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+[9]
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+[10]
+Overfull \hbox (10.55704pt too wide) in paragraph at lines 236--236
+ [][][][]\T1/pplj/m/n/10 (-20) Polarizer 
+ []
+
+
+Overfull \hbox (0.10808pt too wide) in paragraph at lines 240--241
+\T1/pplj/m/n/10 (+15) the direction of the electric field vector. The effect of
+ passing through 
+ []
+
+[11]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 291.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 291.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [12]
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+Overfull \hbox (0.86397pt too wide) in paragraph at lines 323--323
+|[]\T1/pplj/m/it/12 Complex Elec-tro-mag-netic Wave Am-pli-tude Model (CE-WAM)|
+ 
+ []
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+[13]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+[14] [15]
+Chapter 2.
+
+Overfull \hbox (0.14293pt too wide) in paragraph at lines 398--399
+\T1/pplj/m/n/10 (+6) orbiting around the proton. We've used the model a number 
+of times, 
+ []
+
+
+Overfull \hbox (0.15944pt too wide) in paragraph at lines 401--402
+\T1/pplj/m/n/10 (+16) We in-tro-duced, back in in-tro-duc-tory physics, the ide
+a that an ac-cel-er- 
+ []
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+Overfull \hbox (0.1539pt too wide) in paragraph at lines 432--433
+\T1/pplj/m/n/10 (+16) travels outward at the speed of light. At some time $\OML
+/zplm/m/it/10 T$ \T1/pplj/m/n/10 (+16) later, the signal 
+ []
+
+[16
+
+]
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+[17]
+Overfull \hbox (0.1833pt too wide) in paragraph at lines 496--497
+\T1/pplj/m/n/10 (+20) We now have everything we need to re-visit the model of a
+n electron 
+ []
+
+
+Overfull \hbox (8.04161pt too wide) in paragraph at lines 497--506
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+[18] <graphics/Balmer.png, id=975, 871.255pt x 339.2675pt>
+File: graphics/Balmer.png Graphic file (type png)
+
+<use graphics/Balmer.png>
+Package pdftex.def Info: graphics/Balmer.png used on input line 544.
+(pdftex.def)             Requested size: 143.99016pt x 56.0699pt.
+
+Underfull \hbox (badness 1533) in paragraph at lines 550--550
+\T1/pplj/m/n/10 (+20) Figure 2.2: From 
+ []
+
+
+Overfull \hbox (14.11807pt too wide) in paragraph at lines 550--550
+\T1/fvm/m/n/10 Textbook_Maps/General_Chemistry 
+ []
+
+
+Overfull \hbox (3.884pt too wide) in paragraph at lines 550--550
+\T1/fvm/m/n/10 _Textbook_Maps/Map%3A_Lower's 
+ []
+
+
+Overfull \hbox (3.884pt too wide) in paragraph at lines 550--550
+\T1/fvm/m/n/10 _Periodic_Table/The_Bohr_Atom[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+[19 <./graphics/Balmer.png>] [20]
+Overfull \hbox (0.13193pt too wide) in paragraph at lines 592--593
+\OT1/pplx/m/n/10 1\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 R[]$\T1/pplj/m/n/10 (+16)
+ . Or if the hydrogen atom starts in a different configuration, we 
+ []
+
+
+Overfull \hbox (0.13258pt too wide) in paragraph at lines 594--595
+\T1/pplj/m/n/10 (+18) more solid as an El-MaW de-tec-tor? The pho-to-elec-tric 
+ef-fect model de- 
+ []
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+[21]
+Overfull \hbox (0.11581pt too wide) in paragraph at lines 639--643
+\T1/pplj/m/n/10 (+3) sig-nal look like if two elec-trons ar-rived within the Ga
+us-sian width? 
+ []
+
+[22]
+
+LaTeX Warning: Marginpar on page 23 moved.
+
+[23]
+Chapter 3.
+
+Overfull \hbox (0.11423pt too wide) in paragraph at lines 680--681
+\T1/pplj/m/n/10 (+1) but they are usually made with thin film coatings so that 
+they are less 
+ []
+
+[24
+
+]
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+
+Overfull \hbox (0.12534pt too wide) in paragraph at lines 730--734
+\T1/pplj/m/n/10 (+6) time which is calculated by averaging over the time interv
+al from $\OT1/pplx/m/n/10 0$ \T1/pplj/m/n/10 (+6) to 
+ []
+
+[25] [26]
+Overfull \hbox (5.97466pt too wide) in paragraph at lines 811--811
+ \T1/pplj/m/n/10 (-20) trapped 
+ []
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+Overfull \hbox (1.2197pt too wide) in paragraph at lines 826--853
+ [] 
+ []
+
+[27]
+Overfull \hbox (39.43237pt too wide) in paragraph at lines 858--867
+ [] 
+ []
+
+
+Overfull \hbox (0.10876pt too wide) in paragraph at lines 868--869
+[]\T1/pplj/m/n/10 (+9) With the incoming polarization set to either $\OML/zplm/
+m/it/10 D[]$ \T1/pplj/m/n/10 (+9) or $\OML/zplm/m/it/10 D[]$\T1/pplj/m/n/10 (+9
+) , we are back 
+ []
+
+
+Overfull \hbox (0.111pt too wide) in paragraph at lines 870--882
+\T1/pplj/m/n/10 (+17) ing block of dis-crete bins mea-sured at the out-put of t
+he beam-split- 
+ []
+
+[28]
+Chapter 4.
+
+Overfull \hbox (41.04506pt too wide) in paragraph at lines 886--886
+|[]\T1/pplj/m/it/20.74 Rotated Mea-sure-ments and Vec-tor Spaces| 
+ []
+
+
+Overfull \hbox (5.97466pt too wide) in paragraph at lines 919--919
+ \T1/pplj/m/n/10 (-20) trapped 
+ []
+
+[29
+
+]
+Overfull \hbox (0.10066pt too wide) in paragraph at lines 953--954
+\T1/pplj/m/n/10 (+11) as the sum of the re-sult value times the prob-a-bil-ity 
+of mea-sur-ing that 
+ []
+
+[30]
+Overfull \hbox (0.15378pt too wide) in paragraph at lines 1005--1007
+\T1/pplj/m/n/10 (+11) We apply this same logic to the following two proposition
+s about our 
+ []
+
+[31]
+Overfull \hbox (25.5114pt too wide) in paragraph at lines 1014--1048
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+[32]
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+Overfull \hbox (0.10254pt too wide) in paragraph at lines 1109--1110
+[]\T1/pplj/b/n/10 Model: \T1/pplj/m/n/10 (+4) We will model these two functions
+ as complex functions of 
+ []
+
+[33]
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+[34]
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+[35]
+Chapter 5.
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+[36
+
+]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+(./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+[37] (./graphics/tool2.tikz)
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+[38] (./graphics/tool2.tikz) (./graphics/tool3.tikz) (./graphics/tool3.tikz)
+Overfull \hbox (11.87885pt too wide) in paragraph at lines 1313--1331
+ [] 
+ []
+
+[39]
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+(./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+(./graphics/tool2.tikz) (./graphics/tool4.tikz)
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+[40]
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+Overfull \hbox (14.78885pt too wide) in paragraph at lines 1393--1412
+  [] 
+ []
+
+
+Overfull \hbox (0.15591pt too wide) in paragraph at lines 1412--1416
+\T1/pplj/m/n/10 (+19) state with polarization $\OML/zplm/m/it/10 D[]$\T1/pplj/m
+/n/10 (+19) . We know from our previous experiments 
+ []
+
+
+Overfull \hbox (0.13466pt too wide) in paragraph at lines 1412--1416
+\T1/pplj/m/n/10 (+11) that we should expect to measure $[]$ half of the time an
+d to measure 
+ []
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41]
+
+LaTeX Warning: Marginpar on page 42 moved.
+
+[42]
+Overfull \hbox (33.5596pt too wide) in paragraph at lines 1484--1506
+ [] 
+ []
+
+
+Overfull \hbox (33.5596pt too wide) in paragraph at lines 1512--1534
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+Overfull \hbox (0.11743pt too wide) in paragraph at lines 1539--1544
+\T1/pplj/m/n/10 (+3) the $\OML/zplm/m/it/10 ^^U\OT1/zplm/m/n/10 /\OT1/pplx/m/n/
+10 4$\T1/pplj/m/n/10 (+3) -plate to $\OML/zplm/m/it/10 C[]$ \T1/pplj/m/n/10 (+3
+) or $\OML/zplm/m/it/10 C[]$ \T1/pplj/m/n/10 (+3) po-lar-iza-tion, then it does
+n't mat-ter whether 
+ []
+
+[43] (./graphics/tool4.tikz)
+Overfull \hbox (0.13493pt too wide) in paragraph at lines 1599--1603
+\T1/pplj/m/n/10 (+16) that we need two free parameters to describe a state. So 
+our matrices 
+ []
+
+[44] (./graphics/tool1.tikz)
+Overfull \hbox (0.15599pt too wide) in paragraph at lines 1603--1607
+\T1/pplj/m/n/10 (+16) We then write any ar-bi-trary state vec-tor in terms of t
+hese ba-sis ma-tri- 
+ []
+
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+[45]
+Chapter 6.
+
+Overfull \hbox (3.18364pt too wide) in paragraph at lines 1645--1645
+ [][][][]\T1/pplj/m/n/10 (-20) Atomic 
+ []
+
+
+Overfull \hbox (0.9688pt too wide) in paragraph at lines 1645--1645
+ \T1/pplj/m/n/10 (-20) Source 
+ []
+
+
+Overfull \hbox (39.07286pt too wide) in paragraph at lines 1637--1676
+ [] 
+ []
+
+[46
+
+]
+Overfull \hbox (3.18364pt too wide) in paragraph at lines 1699--1699
+ [][][][]\T1/pplj/m/n/10 (-20) Atomic 
+ []
+
+
+Overfull \hbox (0.9688pt too wide) in paragraph at lines 1699--1699
+ \T1/pplj/m/n/10 (-20) Source 
+ []
+
+
+Overfull \hbox (32.46593pt too wide) in paragraph at lines 1691--1736
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+Overfull \hbox (3.18364pt too wide) in paragraph at lines 1748--1748
+ [][][][]\T1/pplj/m/n/10 (-20) Atomic 
+ []
+
+
+Overfull \hbox (0.9688pt too wide) in paragraph at lines 1748--1748
+ \T1/pplj/m/n/10 (-20) Source 
+ []
+
+
+Overfull \hbox (32.46593pt too wide) in paragraph at lines 1740--1785
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+Overfull \hbox (3.18364pt too wide) in paragraph at lines 1810--1810
+ [][][][]\T1/pplj/m/n/10 (-20) Atomic 
+ []
+
+
+Overfull \hbox (0.9688pt too wide) in paragraph at lines 1810--1810
+ \T1/pplj/m/n/10 (-20) Source 
+ []
+
+
+Overfull \hbox (32.46593pt too wide) in paragraph at lines 1862--1863
+ [][] 
+ []
+
+[47]
+
+LaTeX Warning: Marginpar on page 48 moved.
+
+
+LaTeX Warning: Marginpar on page 48 moved.
+
+
+Overfull \hbox (3.18364pt too wide) in paragraph at lines 1897--1897
+ [][][][]\T1/pplj/m/n/10 (-20) Atomic 
+ []
+
+
+Overfull \hbox (0.9688pt too wide) in paragraph at lines 1897--1897
+ \T1/pplj/m/n/10 (-20) Source 
+ []
+
+[48]
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 2013--2013
+\OMS/zplm/m/n/10 ^^X$\T1/fvm/m/n/10 mcintyre/ph425/ 
+ []
+
+[49]
+Overfull \hbox (15.50838pt too wide) in paragraph at lines 2117--2120
+ [][] 
+ []
+
+(./graphics/tool4.tikz)
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+[50]
+Overfull \hbox (39.70227pt too wide) in paragraph at lines 2155--2156
+ [][] 
+ []
+
+[51]
+Chapter 7.
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+(./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+(./graphics/tool2.tikz)
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+[52
+
+]
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+
+Overfull \hbox (34.07622pt too wide) in paragraph at lines 2266--2266
+\T1/fvm/m/n/10 people.cornellcollege.edu/dsherman/ 
+ []
+
+<graphics/Mxy02yx02.png, id=1390, 558.085pt x 240.9pt>
+File: graphics/Mxy02yx02.png Graphic file (type png)
+
+<use graphics/Mxy02yx02.png>
+Package pdftex.def Info: graphics/Mxy02yx02.png used on input line 2269.
+(pdftex.def)             Requested size: 227.62413pt x 98.255pt.
+ [53 <./graphics/Mxy02yx02.png>]
+
+LaTeX Warning: Marginpar on page 54 moved.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [54]
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+(./graphics/tool6.tikz)
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+
+Overfull \hbox (0.11578pt too wide) in paragraph at lines 2355--2358
+\T1/pplj/m/n/10 (+19) We are par-tic-u-larly in-ter-ested in this type of op-er
+-a-tor, called a \T1/pplj/m/it/10 (+19) Her-mi- 
+ []
+
+[55]
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+[56] [57] [58]
+Chapter 8.
+(./graphics/tool4.tikz)
+Underfull \hbox (badness 10000) in paragraph at lines 2470--2470
+[]\T1/pplj/m/n/10 (+20) Using [][][] \T1/pplj/b/n/10 Prob-a-bil-ity Pre-dic-
+ []
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+(./graphics/tool5.tikz)
+Overfull \hbox (0.13579pt too wide) in paragraph at lines 2477--2481
+\T1/pplj/m/n/10 (+11) ment many times and then took the av-er-age of all the re
+-sults. We can 
+ []
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+[59
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.0.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2488 \vis
+           ] (./graphics/tool5.tikz) (./graphics/tool4.tikz)
+(./graphics/tool6.tikz) (./graphics/tool6.tikz) [60] (./graphics/tool1.tikz)
+Underfull \hbox (badness 10000) in paragraph at lines 2567--2567
+[][][][] \T1/pplj/b/n/10 Or-thonor-mal Ba-sis De-
+ []
+
+(./graphics/tool6.tikz) (./graphics/tool2.tikz)
+Overfull \hbox (8.62917pt too wide) in paragraph at lines 2577--2578
+[]\T1/pplj/m/n/10 (-20) Finally, we ex-pand the bra-vector $[]$ and use the fac
+t that $[] \OT1/zplm/m/n/10 = 
+ []
+
+[61pdfTeX warning (ext4): destination with the same identifier (name{equation.8
+.0.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2581 \eeq
+           \arnote{Be sure to work out the missing steps here.}]
+(./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+(./graphics/tool2.tikz) (./graphics/tool4.tikz) (./graphics/tool1.tikz)
+(./graphics/tool2.tikz)
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+(./graphics/tool5.tikz) [62pdfTeX warning (ext4): destination with the same ide
+ntifier (name{equation.8.0.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2624 \eeq
+           pdfTeX warning (ext4): destination with the same identifier (name{eq
+uation.8.0.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2624 \eeq
+           ]
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+[63]
+Overfull \hbox (0.14034pt too wide) in paragraph at lines 2740--2741
+\T1/pplj/m/n/10 (+8) same thing as mak-ing a mea-sure-ment with an ac-tual phys
+-i-cal sys-tem. 
+ []
+
+
+LaTeX Warning: Marginpar on page 64 moved.
+
+[64]
+Overfull \hbox (0.10858pt too wide) in paragraph at lines 2766--2767
+\T1/pplj/m/n/10 (+8) average value of the measurements? Calculate this two diff
+erent 
+ []
+
+[65]
+Chapter 9.
+[66
+
+] [67] [68]) (./part2.tex [69] [70
+
+]
+Chapter 10.
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
+
+LaTeX Font Info:    Try loading font information for U+bbm on input line 48.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+) [71
+
+]
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+(./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+
+Overfull \hbox (0.13838pt too wide) in paragraph at lines 82--84
+\T1/pplj/m/n/10 (+19) which is the fundamental equation of ``motion'' or time e
+volution for 
+ []
+
+[72]
+Overfull \hbox (0.1024pt too wide) in paragraph at lines 89--93
+\T1/pplj/m/n/10 (+17) This is very sim-i-lar to the model from clas-si-cal me-c
+han-ics that the to- 
+ []
+
+
+Overfull \hbox (0.11029pt too wide) in paragraph at lines 89--93
+\T1/pplj/m/n/10 (+3) we find the eigen-vec-tors and eigen-val-ues of the Hamil-
+to-nian op-er-a-tor 
+ []
+
+(./graphics/tool6.tikz) (./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+(./graphics/tool1.tikz)
+Overfull \hbox (9.37839pt too wide) in paragraph at lines 100--109
+[]\T1/pplj/m/n/10 (-20) We now use this ex-pan-sion with the Schrödinger equa-t
+ion (Eq. ([][]10.11[][])) 
+ []
+
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+(./graphics/tool6.tikz) [73]
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+(./graphics/tool2.tikz) [74] [75] [76]
+Chapter 11.
+
+Overfull \hbox (24.18346pt too wide) in paragraph at lines 244--244
+|[]\T1/pplj/m/it/20.74 Commutators and Mea-sure-ment Un-cer-
+ []
+
+(./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+(./graphics/tool8.tikz)
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+[77
+
+] [78] [79]
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+(./graphics/tool9.tikz)
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+(./graphics/tool6.tikz) (./graphics/tool5.tikz) [80]
+Overfull \hbox (0.10548pt too wide) in paragraph at lines 430--434
+\T1/pplj/m/n/10 (+4) energy, we have to look for some other type of measurement
+ operator. 
+ []
+
+[81]
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+Overfull \hbox (7.44841pt too wide) in paragraph at lines 457--460
+[]\T1/pplj/b/n/10 Solution: \T1/pplj/m/n/10 (-20) We know that $[] \OT1/zplm/m/
+n/10 = \OT1/pplx/m/n/10 1\OT1/zplm/m/n/10 /[]([] + [])$ \T1/pplj/m/n/10 (-20) a
+nd $[] \OT1/zplm/m/n/10 = 
+ []
+
+
+Overfull \hbox (1.92845pt too wide) in paragraph at lines 457--460
+\OT1/pplx/m/n/10 1\OT1/zplm/m/n/10 /[]([] \OMS/zplm/m/n/10 ^^@ []\OT1/zplm/m/n/
+10 )$\T1/pplj/m/n/10 (-20) . That means that $[] \OT1/zplm/m/n/10 = \OT1/pplx/m
+/n/10 1\OT1/zplm/m/n/10 /[]([] + [])$\T1/pplj/m/n/10 (-20) . 
+ []
+
+(./graphics/tool4.tikz) [82] (./graphics/tool4.tikz) [83]
+Chapter 12.
+
+Overfull \hbox (24.9301pt too wide) in paragraph at lines 492--492
+|[]\T1/pplj/m/it/20.74 Multiple Pa-ram-e-ters De-scrib-ing a State| 
+ []
+
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+[84
+
+]
+
+LaTeX Warning: Marginpar on page 85 moved.
+
+(./graphics/tool10.tikz)
+
+LaTeX Warning: Marginpar on page 85 moved.
+
+
+Overfull \hbox (0.12196pt too wide) in paragraph at lines 539--541
+\T1/pplj/m/n/10 (+13) ment un-cer-tain-ties. If we try and mea-sure \T1/pplj/m/
+it/10 (+13) both \T1/pplj/m/n/10 (+13) ob-serv-ables, there is a 
+ []
+
+
+LaTeX Warning: Marginpar on page 85 moved.
+
+[85] [86]
+Overfull \hbox (0.12857pt too wide) in paragraph at lines 619--622
+\T1/pplj/m/n/10 (+19) of the expectation value of an observable in Eq. ([][]11.
+3b[][]) (ignoring any 
+ []
+
+
+LaTeX Warning: Marginpar on page 87 moved.
+
+[87] [88] [89]
+Chapter 13.
+
+Overfull \hbox (0.1097pt too wide) in paragraph at lines 692--693
+\T1/pplj/m/n/10 (+17) non-interacting spins. This sys-tem is in-ter-est-ing be-
+cause it will let us 
+ []
+
+
+LaTeX Warning: Marginpar on page 90 moved.
+
+[90
+
+]
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+(./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+
+Overfull \hbox (0.11871pt too wide) in paragraph at lines 730--735
+\T1/pplj/m/n/10 (+20) states, we leave the other state alone --- it just goes a
+long for the ride. 
+ []
+
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+[91] [92] (./graphics/tool5.tikz)
+
+LaTeX Warning: Marginpar on page 93 moved.
+
+
+Overfull \hbox (0.14119pt too wide) in paragraph at lines 794--796
+\T1/pplj/m/n/10 (+15) First, what do Alice's and Bob's measure if they average 
+a number of 
+ []
+
+[93] [94]
+Overfull \hbox (0.11217pt too wide) in paragraph at lines 851--852
+\T1/pplj/m/n/10 (+7) Bob's states. Before doing this with the quantum states, l
+et's look at a 
+ []
+
+
+LaTeX Warning: Marginpar on page 95 moved.
+
+[95] [96] [97]
+Chapter 14.
+
+Overfull \hbox (1.47392pt too wide) in paragraph at lines 953--953
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+
+Overfull \hbox (10.96805pt too wide) detected at line 976
+[] \OMS/zplm/m/n/10 
+ [] ) [] \OT1/zplm/m/n/10 = []
+ []
+
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+[98
+
+]
+Overfull \hbox (0.17975pt too wide) in paragraph at lines 993--996
+\T1/pplj/m/n/10 (+13) We need a new mathematical tool now. We define the \T1/pp
+lj/m/it/10 (+13) outer product \T1/pplj/m/n/10 (+13) of 
+ []
+
+
+LaTeX Warning: Marginpar on page 99 moved.
+
+[99] [100]
+Overfull \hbox (0.1241pt too wide) in paragraph at lines 1073--1077
+\T1/pplj/m/n/10 (+13) so the trace of a Hermitian operator is just the sum of i
+ts eigenvalues. 
+ []
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 101 moved.
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 101 moved.
+
+(./graphics/tool5.tikz)
+
+LaTeX Warning: Marginpar on page 101 moved.
+
+[101]
+Overfull \hbox (2.18947pt too wide) detected at line 1103
+[] [] \OT1/zplm/m/n/10 = []
+ []
+
+
+Overfull \hbox (8.54744pt too wide) in paragraph at lines 1127--1129
+[][]\T1/pplj/b/n/10.95 Exercise 14.4 []\T1/pplj/m/n/10 (-20) Us-ing the for-mul
+a in Eq. ([][]14.19d[][]), what is $[] [] []$?  
+ []
+
+[102]
+Chapter 15.
+
+LaTeX Warning: Marginpar on page 103 moved.
+
+
+LaTeX Warning: Marginpar on page 103 moved.
+
+[103
+
+]
+
+LaTeX Warning: Marginpar on page 104 moved.
+
+
+LaTeX Warning: Marginpar on page 104 moved.
+
+
+LaTeX Warning: Marginpar on page 104 moved.
+
+
+Overfull \hbox (0.13396pt too wide) in paragraph at lines 1170--1172
+\T1/pplj/m/n/10 (+6) our density matrix and the average measurement of the spin
+ in the 
+ []
+
+[104] [105]
+
+LaTeX Warning: Marginpar on page 106 moved.
+
+
+Overfull \hbox (0.14288pt too wide) in paragraph at lines 1255--1257
+\T1/pplj/m/n/10 (+8) The diagonal elements of the density matrix are called the
+ \T1/pplj/m/it/10 (+8) populations\T1/pplj/m/n/10 (+8) . 
+ []
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 106 moved.
+
+[106]
+
+LaTeX Warning: Marginpar on page 107 moved.
+
+
+LaTeX Warning: Marginpar on page 107 moved.
+
+
+LaTeX Warning: Marginpar on page 107 moved.
+
+
+LaTeX Warning: Marginpar on page 107 moved.
+
+[107]
+
+LaTeX Warning: Marginpar on page 108 moved.
+
+
+LaTeX Warning: Marginpar on page 108 moved.
+
+
+LaTeX Warning: Marginpar on page 108 moved.
+
+[108]
+
+LaTeX Warning: Marginpar on page 109 moved.
+
+[109]
+Chapter 16.
+(./graphics/tool5.tikz)
+
+LaTeX Warning: Marginpar on page 110 moved.
+
+(./graphics/tool3.tikz) [110
+
+]
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+(./graphics/tool6.tikz)
+
+LaTeX Warning: Marginpar on page 111 moved.
+
+[111] [112]
+Overfull \hbox (0.10324pt too wide) in paragraph at lines 1480--1484
+[][]\T1/pplj/b/n/10.95 Exercise 16.1 []\T1/pplj/m/n/10 (+6) Al-ice and Bob star
+t with com-bined El-MaW po-lar-iza- 
+ []
+
+[113]
+
+LaTeX Warning: Marginpar on page 114 moved.
+
+[114] (./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 115 moved.
+
+[115]
+
+LaTeX Warning: Marginpar on page 116 moved.
+
+
+LaTeX Warning: Marginpar on page 116 moved.
+
+[116] [117] [118] [119]
+Chapter 17.
+(./graphics/tool1.tikz)
+
+LaTeX Warning: Marginpar on page 120 moved.
+
+
+LaTeX Warning: Marginpar on page 120 moved.
+
+(./graphics/tool2.tikz) (./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 120 moved.
+
+[120
+
+] (./graphics/tool11.tikz) (./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 121 moved.
+
+
+LaTeX Warning: Marginpar on page 121 moved.
+
+[121]
+Overfull \hbox (11.24951pt too wide) in paragraph at lines 1805--1817
+[]  
+ []
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 122 moved.
+
+(./graphics/tool11.tikz) [122]
+
+LaTeX Warning: Marginpar on page 123 moved.
+
+(./graphics/tool4.tikz)
+
+LaTeX Warning: Marginpar on page 123 moved.
+
+(./graphics/tool4.tikz)
+
+LaTeX Warning: Marginpar on page 123 moved.
+
+
+LaTeX Warning: Marginpar on page 123 moved.
+
+[123] [124]
+Overfull \hbox (0.10007pt too wide) in paragraph at lines 1919--1922
+\T1/pplj/m/n/10 (+15) the position of the electron in the region $\OT1/pplx/m/n
+/10 0 \OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 x \OMS/zplm/m/n/10 ^^T \OML/zplm/m
+/it/10 L\OT1/zplm/m/n/10 /\OT1/pplx/m/n/10 4$\T1/pplj/m/n/10 (+15) ? What is th
+e 
+ []
+
+(./graphics/tool5.tikz) (./graphics/tool3.tikz) [125]
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+(./graphics/tool11.tikz) (./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+[126] (./graphics/tool9.tikz)
+
+LaTeX Warning: Marginpar on page 127 moved.
+
+[127] (./graphics/tool9.tikz) [128] [129]
+Chapter 18.
+
+LaTeX Warning: Marginpar on page 130 moved.
+
+(./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 130 moved.
+
+[130
+
+] [131] [132]
+
+LaTeX Warning: Marginpar on page 133 moved.
+
+
+LaTeX Warning: Marginpar on page 133 moved.
+
+(./graphics/tool3.tikz) [133] (./graphics/tool11.tikz) [134]
+(./graphics/tool11.tikz) (./graphics/tool12.tikz)
+
+LaTeX Warning: Marginpar on page 135 moved.
+
+(./graphics/tool11.tikz) [135]
+Overfull \hbox (0.15114pt too wide) in paragraph at lines 2291--2295
+ \T1/pplj/m/n/10 (+8) This wavefunction is already normalized, so we're good to
+ go. We 
+ []
+
+[136] (./graphics/tool8.tikz)
+Overfull \hbox (0.1239pt too wide) in paragraph at lines 2313--2314
+\T1/pplj/m/n/10 (+14) com-mu-ta-tor be-tween $[]$  and see what we get. We need
+ to know 
+ []
+
+
+LaTeX Warning: Marginpar on page 137 moved.
+
+(./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 137 moved.
+
+
+LaTeX Warning: Marginpar on page 137 moved.
+
+
+LaTeX Warning: Marginpar on page 137 moved.
+
+
+LaTeX Warning: Marginpar on page 137 moved.
+
+
+LaTeX Warning: Marginpar on page 137 moved.
+
+(./graphics/tool3.tikz) [137] (./graphics/tool9.tikz) (./graphics/tool10.tikz)
+
+LaTeX Warning: Marginpar on page 138 moved.
+
+
+Overfull \hbox (0.10217pt too wide) in paragraph at lines 2350--2352
+\T1/pplj/m/n/10 (+8) orthogonal measurements and we can't measure both simultan
+eously 
+ []
+
+
+Overfull \hbox (0.13812pt too wide) in paragraph at lines 2368--2370
+\T1/pplj/m/n/10 (+19) Instead of working in the momentum basis to find the unce
+rtainty 
+ []
+
+(./graphics/tool9.tikz) [138] (./graphics/tool10.tikz) [139]
+Chapter 19.
+(./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 140 moved.
+
+
+LaTeX Warning: Marginpar on page 140 moved.
+
+(./graphics/tool3.tikz) [140
+
+]
+
+LaTeX Warning: Marginpar on page 141 moved.
+
+(./graphics/tool11.tikz) (./graphics/tool12.tikz)
+Overfull \hbox (0.13219pt too wide) in paragraph at lines 2431--2435
+\T1/pplj/m/n/10 (+6) We would also like to know what this is in the position ba
+sis. We will 
+ []
+
+
+LaTeX Warning: Marginpar on page 141 moved.
+
+
+LaTeX Warning: Marginpar on page 141 moved.
+
+
+Overfull \hbox (0.11075pt too wide) in paragraph at lines 2442--2447
+\T1/pplj/m/n/10 (+4) Now we make two more substitutions. First we note that the
+ quantity 
+ []
+
+
+LaTeX Warning: Marginpar on page 141 moved.
+
+[141] (./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 142 moved.
+
+(./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 142 moved.
+
+[142] [143] (./graphics/tool3.tikz) (./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 144 moved.
+
+
+LaTeX Warning: Marginpar on page 144 moved.
+
+[144] [145]
+Chapter 20.
+[146
+
+]
+Overfull \hbox (0.12352pt too wide) in paragraph at lines 2693--2694
+[]\T1/pplj/m/n/10 (+5) Is the original state an entangled state or a product st
+ate? How 
+ []
+
+[147]
+Overfull \hbox (0.12988pt too wide) in paragraph at lines 2734--2737
+\T1/pplj/m/n/10 (+13) work with it and see how it behaves. We need to normalize
+ this: 
+ []
+
+
+Overfull \hbox (1.12436pt too wide) detected at line 2737
+\OT1/pplx/m/n/10 1 \OT1/zplm/m/n/10 = [] \OML/zplm/m/it/10 ^^^[]\OT1/zplm/m/n/1
+0 (\OML/zplm/m/it/10 p[]\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10
+ (\OML/zplm/m/it/10 p[]\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 dp[] \OT1/zplm/m/n/1
+0 = [] [][] [][](\OML/zplm/m/it/10 ^^Yp[]\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 p[
+]\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 dp[] \OT1/zplm/m/n/10 = []\OT1/pplx/m/n/10
+ .
+ []
+
+[148]
+Overfull \hbox (17.04944pt too wide) in paragraph at lines 2770--2788
+ [] 
+ []
+
+[149] [150]) (./part3.tex [151]
+Overfull \hbox (38.03775pt too wide) in paragraph at lines 8--8
+|[]\T1/pplj/m/it/20.74 Interference And Quan-tum Bound States
+ []
+
+[152
+
+]
+Chapter 21.
+<graphics/NeutronSingleSlitPattern.pdf, id=2831, 394.65411pt x 239.70628pt>
+File: graphics/NeutronSingleSlitPattern.pdf Graphic file (type pdf)
+
+<use graphics/NeutronSingleSlitPattern.pdf>
+Package pdftex.def Info: graphics/NeutronSingleSlitPattern.pdf used on input li
+ne 33.
+(pdftex.def)             Requested size: 144.00238pt x 87.46461pt.
+ [153
+
+ <./graphics/NeutronSingleSlitPattern.pdf>]
+
+LaTeX Warning: Marginpar on page 154 moved.
+
+
+Overfull \hbox (0.11945pt too wide) in paragraph at lines 133--137
+\T1/pplj/m/n/10 (+7) In order for the neutron to be detected on the screen in t
+he range $\OML/zplm/m/it/10 x$ \T1/pplj/m/n/10 (+7) to 
+ []
+
+
+LaTeX Warning: Marginpar on page 154 moved.
+
+<graphics/SingleSlitLight.pdf, id=2851, 379.4175pt x 318.18875pt>
+File: graphics/SingleSlitLight.pdf Graphic file (type pdf)
+
+<use graphics/SingleSlitLight.pdf>
+Package pdftex.def Info: graphics/SingleSlitLight.pdf used on input line 145.
+(pdftex.def)             Requested size: 249.60579pt x 209.32549pt.
+ [154]
+
+LaTeX Warning: Marginpar on page 155 moved.
+
+
+LaTeX Warning: Marginpar on page 155 moved.
+
+<graphics/NSlitgraphs.pdf, id=2867, 495.3825pt x 153.76346pt>
+File: graphics/NSlitgraphs.pdf Graphic file (type pdf)
+
+<use graphics/NSlitgraphs.pdf>
+Package pdftex.def Info: graphics/NSlitgraphs.pdf used on input line 165.
+(pdftex.def)             Requested size: 249.60304pt x 77.47513pt.
+ [155 <./graphics/SingleSlitLight.pdf>]
+
+LaTeX Warning: Marginpar on page 156 moved.
+
+<graphics/Keith-Diffraction.pdf, id=2888, 372.40602pt x 341.6776pt>
+File: graphics/Keith-Diffraction.pdf Graphic file (type pdf)
+
+<use graphics/Keith-Diffraction.pdf>
+Package pdftex.def Info: graphics/Keith-Diffraction.pdf used on input line 208.
+
+(pdftex.def)             Requested size: 136.79932pt x 125.51155pt.
+
+Overfull \hbox (19.76178pt too wide) in paragraph at lines 184--209
+[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 156 moved.
+
+[156 <./graphics/NSlitgraphs.pdf> <./graphics/Keith-Diffraction.pdf>]
+
+LaTeX Warning: Marginpar on page 157 moved.
+
+<graphics/NeutronInterferometer.pdf, id=2992, 283.49866pt x 192.61038pt>
+File: graphics/NeutronInterferometer.pdf Graphic file (type pdf)
+
+<use graphics/NeutronInterferometer.pdf>
+Package pdftex.def Info: graphics/NeutronInterferometer.pdf used on input line 
+274.
+(pdftex.def)             Requested size: 115.20132pt x 78.26834pt.
+
+
+LaTeX Warning: Marginpar on page 157 moved.
+
+(./graphics/tool7.tikz)
+Overfull \hbox (0.15192pt too wide) in paragraph at lines 283--288
+\T1/pplj/m/n/10 (+20) one-dimensional continuous quantum state. Given that we k
+now the 
+ []
+
+
+LaTeX Warning: Marginpar on page 157 moved.
+
+[157 <./graphics/NeutronInterferometer.pdf>]
+
+LaTeX Warning: Marginpar on page 158 moved.
+
+[158]
+Overfull \hbox (0.14648pt too wide) in paragraph at lines 361--365
+\T1/pplj/m/n/10 (+1) we model the free prop-a-ga-tion of the wave-func-tion in-
+side the in-ter-fer- 
+ []
+
+[159]
+
+LaTeX Warning: Marginpar on page 160 moved.
+
+[160]
+Overfull \hbox (0.61313pt too wide) in paragraph at lines 447--448
+[]\T1/pplj/b/n/10 Propagation from Mir-ror C to Beam-split-ter D: $\OML/zplm/m/
+it/10  [] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 e[] \OT1/zplm/m/n/10 = 
+ []
+
+
+LaTeX Warning: Marginpar on page 161 moved.
+
+
+LaTeX Warning: Marginpar on page 161 moved.
+
+[161]
+
+LaTeX Warning: Marginpar on page 162 moved.
+
+
+Overfull \hbox (0.10974pt too wide) in paragraph at lines 489--539
+\T1/pplj/m/n/10 (+20) Nearly all interferometry experiments involve doing somet
+hing to 
+ []
+
+[162] [163]
+Chapter 22.
+
+Overfull \hbox (0.12926pt too wide) in paragraph at lines 558--562
+\T1/pplj/m/n/10 (+2) These wavefunctions actually represent an infinite number 
+of possible 
+ []
+
+
+LaTeX Warning: Marginpar on page 164 moved.
+
+[164
+
+]
+
+LaTeX Warning: Marginpar on page 165 moved.
+
+
+LaTeX Warning: Marginpar on page 165 moved.
+
+
+LaTeX Warning: Marginpar on page 165 moved.
+
+[165]
+
+LaTeX Warning: Marginpar on page 166 moved.
+
+
+LaTeX Warning: Marginpar on page 166 moved.
+
+[166]
+
+LaTeX Warning: Marginpar on page 167 moved.
+
+(./graphics/tool12.tikz)
+
+LaTeX Warning: Marginpar on page 167 moved.
+
+
+LaTeX Warning: Marginpar on page 167 moved.
+
+[167] [168] [169]
+Chapter 23.
+
+Overfull \hbox (24.81871pt too wide) in paragraph at lines 918--919
+ [][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 170 moved.
+
+[170
+
+]
+Overfull \hbox (0.11642pt too wide) in paragraph at lines 964--968
+\T1/pplj/m/n/10 (+7) defined ($\OML/zplm/m/it/10 ^^[[]$ \T1/pplj/m/n/10 (+7) is
+ small), the spread time $\OML/zplm/m/it/10 t[]$ \T1/pplj/m/n/10 (+7) is large,
+ so it takes a long 
+ []
+
+
+Overfull \hbox (0.1219pt too wide) in paragraph at lines 975--978
+\T1/pplj/m/it/10 (+4) coherence length\T1/pplj/m/n/10 (+4) :[] Although we trea
+ted the interfering matter waves in 
+ []
+
+
+LaTeX Warning: Marginpar on page 171 moved.
+
+[171] [172]
+
+LaTeX Warning: Marginpar on page 173 moved.
+
+
+LaTeX Warning: Marginpar on page 173 moved.
+
+[173]
+Overfull \hbox (0.15552pt too wide) in paragraph at lines 1115--1119
+\T1/pplj/m/n/10 (+18) tively, that are ob-served by a de-tec-tor as some pa-ram
+-e-ter is var-ied. 
+ []
+
+[174]
+Chapter 24.
+(./graphics/tool7.tikz) (./graphics/tool6.tikz)
+Overfull \hbox (0.14754pt too wide) in paragraph at lines 1156--1161
+\T1/pplj/m/n/10 (+17) val-ues $\OML/zplm/m/it/10 x$\T1/pplj/m/n/10 (+17) , $\OM
+L/zplm/m/it/10 y$\T1/pplj/m/n/10 (+17) , and $\OML/zplm/m/it/10 z$\T1/pplj/m/n/
+10 (+17) , re-spec-tively. We write the po-si-tion $\OML/zplm/m/it/10 j$\T1/ppl
+j/m/n/10 (+17) -component as 
+ []
+
+(./graphics/tool8.tikz)
+
+LaTeX Warning: Marginpar on page 175 moved.
+
+[175
+
+]
+Overfull \hbox (0.12709pt too wide) in paragraph at lines 1179--1183
+[]\T1/pplj/m/n/10 (+19) We simplify the notation a bit more by defining the 3-d
+imensional 
+ []
+
+
+LaTeX Warning: Marginpar on page 176 moved.
+
+
+LaTeX Warning: Marginpar on page 176 moved.
+
+(./graphics/tool6.tikz) [176] (./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 177 moved.
+
+
+LaTeX Warning: Marginpar on page 177 moved.
+
+[177] [178] (./graphics/tool6.tikz) (./graphics/tool8.tikz)
+(./graphics/tool8.tikz) (./graphics/tool10.tikz)
+
+LaTeX Warning: Marginpar on page 179 moved.
+
+(./graphics/tool6.tikz)
+
+LaTeX Warning: Marginpar on page 179 moved.
+
+
+LaTeX Warning: Marginpar on page 179 moved.
+
+[179]
+
+LaTeX Warning: Marginpar on page 180 moved.
+
+(./graphics/tool11.tikz)
+
+LaTeX Warning: Marginpar on page 180 moved.
+
+
+Overfull \hbox (0.11218pt too wide) in paragraph at lines 1407--1410
+\T1/pplj/m/n/10 (+3) result to each coordinate. For example, the 3-dimensional 
+momentum 
+ []
+
+(./graphics/tool12.tikz) (./graphics/tool12.tikz) [180]
+Overfull \hbox (39.50906pt too wide) in paragraph at lines 1476--1477
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 181 moved.
+
+[181] (./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 182 moved.
+
+(./graphics/tool13.tikz)
+
+LaTeX Warning: Marginpar on page 182 moved.
+
+
+Overfull \hbox (5.01286pt too wide) in paragraph at lines 1513--1518
+\T1/pplj/m/n/10 (-20) We project this onto the po-si-tion ba-sis and we get the
+ Time-Independent 
+ []
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 182 moved.
+
+[182]
+Overfull \hbox (0.13751pt too wide) in paragraph at lines 1551--1552
+[]\T1/pplj/m/n/10 (+15) An atom in the Earth's gravitational field at height $\
+OML/zplm/m/it/10 z$ \T1/pplj/m/n/10 (+15) above the 
+ []
+
+
+Overfull \hbox (0.12158pt too wide) in paragraph at lines 1562--1563
+[]\T1/pplj/m/n/10 (+15) Find the group velocity of this packet, expressing your
+ answer 
+ []
+
+[183] [184]
+Chapter 25.
+
+Overfull \hbox (0.10013pt too wide) in paragraph at lines 1576--1577
+\T1/pplj/m/n/10 (+3) the potential, then we will look at what happens if the po
+tential shifts 
+ []
+
+
+Overfull \hbox (20.86111pt too wide) in paragraph at lines 1581--1589
+ [] 
+ []
+
+[185
+
+] (./graphics/tool13.tikz)
+
+LaTeX Warning: Marginpar on page 186 moved.
+
+
+LaTeX Warning: Marginpar on page 186 moved.
+
+
+LaTeX Warning: Marginpar on page 186 moved.
+
+[186]
+Overfull \hbox (11.04951pt too wide) in paragraph at lines 1673--1683
+ [] 
+ []
+
+[187]
+
+LaTeX Warning: Marginpar on page 188 moved.
+
+[188]
+Overfull \hbox (11.04951pt too wide) in paragraph at lines 1769--1780
+ [] 
+ []
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 189 moved.
+
+
+LaTeX Warning: Marginpar on page 189 moved.
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 1809--1809
+\T1/pplj/m/n/10 (+20) The units for $\OML/zplm/m/it/10 $ \T1/pplj/m/n/10 (+20)
+ are 
+ []
+
+
+LaTeX Warning: Marginpar on page 189 moved.
+
+
+LaTeX Warning: Marginpar on page 189 moved.
+
+[189] [190]
+Chapter 26.
+
+LaTeX Warning: Marginpar on page 191 moved.
+
+
+Overfull \hbox (7.94264pt too wide) in paragraph at lines 1845--1882
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 191 moved.
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 191 moved.
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 191 moved.
+
+[191
+
+]
+Overfull \hbox (1.34828pt too wide) in paragraph at lines 1924--1938
+  [] 
+ []
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 192 moved.
+
+
+LaTeX Warning: Marginpar on page 192 moved.
+
+
+LaTeX Warning: Marginpar on page 192 moved.
+
+
+Overfull \hbox (16.52484pt too wide) in paragraph at lines 2008--2011
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2008--2011
+
+ []
+
+[192]
+
+LaTeX Warning: Marginpar on page 193 moved.
+
+[193]
+Overfull \hbox (0.14568pt too wide) in paragraph at lines 2046--2047
+[]\T1/pplj/b/n/10 Model: \T1/pplj/m/n/10 (+12) We'll model the elec-tron as a m
+at-ter wave and we'll model 
+ []
+
+[194]
+Overfull \hbox (0.10626pt too wide) in paragraph at lines 2095--2096
+\T1/pplj/m/n/10 (+19) ``sloshes'' in the well. We see the probability increase 
+and decrease 
+ []
+
+
+Overfull \hbox (0.10097pt too wide) in paragraph at lines 2110--2112
+[][]\T1/pplj/b/n/10.95 Exercise 26.2 []\T1/pplj/m/n/10 (+19) An electron confin
+ed in a quantum well starts in an 
+ []
+
+[195] <graphics/QuantumDotPhoto.pdf, id=3644, 187.94498pt x 193.03748pt>
+File: graphics/QuantumDotPhoto.pdf Graphic file (type pdf)
+
+<use graphics/QuantumDotPhoto.pdf>
+Package pdftex.def Info: graphics/QuantumDotPhoto.pdf used on input line 2124.
+(pdftex.def)             Requested size: 86.40125pt x 88.74234pt.
+
+Overfull \hbox (1.34828pt too wide) in paragraph at lines 2141--2155
+  [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 196 moved.
+
+[196 <./graphics/QuantumDotPhoto.pdf>]
+Overfull \hbox (0.10399pt too wide) in paragraph at lines 2172--2176
+\T1/pplj/m/n/10 (+4) energy of the system.  In the end we'll assume that $\OML/
+zplm/m/it/10 ^^U \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 1$ \T1/pplj/m/n/10 (+4) be
+cause the 
+ []
+
+[197] [198]
+Chapter 27.
+
+Overfull \hbox (0.14209pt too wide) in paragraph at lines 2241--2244
+[]\T1/pplj/m/n/10 (+4) We will fo-cus on two en-ergy eigen-states of the un-per
+-turbed Hamil- 
+ []
+
+(./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 199 moved.
+
+
+LaTeX Warning: Marginpar on page 199 moved.
+
+[199
+
+]
+
+LaTeX Warning: Marginpar on page 200 moved.
+
+
+LaTeX Warning: Marginpar on page 200 moved.
+
+[200]
+
+LaTeX Warning: Marginpar on page 201 moved.
+
+
+Overfull \hbox (23.59337pt too wide) in paragraph at lines 2357--2358
+[]\T1/pplj/b/n/10 Solution: \T1/pplj/m/n/10 (-20) We want the dipole ma-trix el
+-e-ments $\OML/zplm/m/it/10 V[] \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 ^^@\OML/zpl
+m/m/it/10 e [] [] [] E[]$\T1/pplj/m/n/10 (-20) . 
+ []
+
+[201] [202]
+Overfull \hbox (0.13127pt too wide) in paragraph at lines 2408--2411
+\T1/pplj/m/n/10 (+8) two quantum states in our infinite well which is known as 
+having the 
+ []
+
+
+Overfull \hbox (0.13573pt too wide) in paragraph at lines 2411--2419
+\T1/pplj/m/n/10 (+14) We now apply the Rotating Wave Approximation to Eq. ([][]
+27.18[][]) along 
+ []
+
+
+LaTeX Warning: Marginpar on page 203 moved.
+
+
+LaTeX Warning: Marginpar on page 203 moved.
+
+
+LaTeX Warning: Marginpar on page 203 moved.
+
+[203] (./graphics/tool4.tikz)
+
+LaTeX Warning: Marginpar on page 204 moved.
+
+
+Overfull \hbox (24.83667pt too wide) in paragraph at lines 2462--2471
+[]  
+ []
+
+[204] [205] [206]
+Chapter 28.
+
+Overfull \hbox (0.14873pt too wide) in paragraph at lines 2527--2530
+\T1/pplj/m/n/10 (+13) We now im-prove this model by mod-el-ing a \T1/pplj/m/it/
+10 (+13) fi-nite \T1/pplj/m/n/10 (+13) po-ten-tial well. We'll 
+ []
+
+
+Overfull \hbox (7.94264pt too wide) in paragraph at lines 2530--2567
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 207 moved.
+
+(./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 207 moved.
+
+[207
+
+] (./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 208 moved.
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 208 moved.
+
+
+Overfull \hbox (0.1338pt too wide) in paragraph at lines 2643--2645
+\T1/pplj/m/n/10 (+17) are constants. We need to distinguish our solution for zo
+nes, so we'll 
+ []
+
+[208] [209]
+
+LaTeX Warning: Marginpar on page 210 moved.
+
+
+LaTeX Warning: Marginpar on page 210 moved.
+
+
+Overfull \hbox (0.12778pt too wide) in paragraph at lines 2723--2767
+\T1/pplj/m/n/10 (+12) solve this is nu-mer-i-cally. We can see graph-i-cally wh
+at we are look-ing 
+ []
+
+[210] [211]
+Overfull \hbox (50.05064pt too wide) in paragraph at lines 2825--2848
+ [] 
+ []
+
+
+Overfull \hbox (0.13045pt too wide) in paragraph at lines 2861--2862
+\T1/pplj/m/n/10 (+12) We repeat the same procedure, starting with Eq. ([][]28.1
+2[][]), but this time 
+ []
+
+
+Overfull \hbox (0.13152pt too wide) in paragraph at lines 2863--2866
+\T1/pplj/m/n/10 (+18) energies for odd-parity eigenfunctions (like Eq. ([][]28.
+19[][]) was for the 
+ []
+
+[212] [213]
+Chapter 29.
+
+Overfull \hbox (23.78435pt too wide) in paragraph at lines 2897--2943
+[]  
+ []
+
+[214
+
+]
+
+LaTeX Warning: Marginpar on page 215 moved.
+
+
+LaTeX Warning: Marginpar on page 215 moved.
+
+[215]
+
+LaTeX Warning: Marginpar on page 216 moved.
+
+
+<graphics/250px-Nitrogen-inversion-3D-balls.png, id=3981, 250.9375pt x 102.3825
+pt>
+File: graphics/250px-Nitrogen-inversion-3D-balls.png Graphic file (type png)
+ <use graphics/250px-Nitrogen-inversion-3D-balls.png>
+Package pdftex.def Info: graphics/250px-Nitrogen-inversion-3D-balls.png used on
+ input line 3066.
+(pdftex.def)             Requested size: 187.21094pt x 76.38206pt.
+ [216]
+Overfull \hbox (0.12648pt too wide) in paragraph at lines 3081--3084
+\T1/pplj/m/n/10 (+12) wave-func-tions for the ni-tro-gen atom double-well model
+ for am-mo- 
+ []
+
+[217 <./graphics/250px-Nitrogen-inversion-3D-balls.png>]
+Overfull \hbox (11.66238pt too wide) in paragraph at lines 3181--3182
+ [][] 
+ []
+
+[218]
+Overfull \hbox (11.66238pt too wide) in paragraph at lines 3229--3230
+ [][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 219 moved.
+
+
+Overfull \hbox (0.10716pt too wide) in paragraph at lines 3243--3244
+\T1/pplj/m/n/10 (+13) The en-ergy eigen-func-tions we found in the last sec-tio
+n are all sta-tion- 
+ []
+
+
+Overfull \hbox (0.14053pt too wide) in paragraph at lines 3245--3248
+\T1/pplj/m/n/10 (+17) the double-well potential potential of an ammonia molecul
+e. We will 
+ []
+
+
+Overfull \hbox (11.66238pt too wide) in paragraph at lines 3284--3285
+ [][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 219 moved.
+
+
+LaTeX Warning: Marginpar on page 219 moved.
+
+[219]
+Overfull \hbox (0.1107pt too wide) in paragraph at lines 3315--3318
+\T1/pplj/m/n/10 (+8) material has a very high potential barrier. If the electro
+n is injected 
+ []
+
+[220]
+Chapter 30.
+
+Overfull \hbox (3.85825pt too wide) in paragraph at lines 3323--3323
+|[]\T1/pplj/m/it/20.74 Quantum Har-monic Os-cil-la-tor: Po-si-
+ []
+
+
+Overfull \hbox (32.14426pt too wide) in paragraph at lines 3327--3337
+  [] 
+ []
+
+[221
+
+] (./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 222 moved.
+
+
+LaTeX Warning: Marginpar on page 222 moved.
+
+
+LaTeX Warning: Marginpar on page 222 moved.
+
+
+LaTeX Warning: Marginpar on page 222 moved.
+
+
+Overfull \hbox (0.12955pt too wide) in paragraph at lines 3388--3392
+\T1/pplj/m/n/10 (+2) tions. We put this all to-gether to get the en-ergy eigen-
+func-tions, which 
+ []
+
+[222]
+Overfull \hbox (53.06493pt too wide) in paragraph at lines 3401--3401
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 223 moved.
+
+
+Overfull \hbox (6.5165pt too wide) in paragraph at lines 3454--3457
+ [][] 
+ []
+
+[223] [224]
+
+LaTeX Warning: Marginpar on page 225 moved.
+
+[225] [226]
+Chapter 31.
+
+Overfull \hbox (11.94684pt too wide) in paragraph at lines 3628--3628
+|[]\T1/pplj/m/it/20.74 Quantum Har-monic Os-cil-la-tor: Num-
+ []
+
+
+LaTeX Warning: Marginpar on page 227 moved.
+
+
+LaTeX Warning: Marginpar on page 227 moved.
+
+
+LaTeX Warning: Marginpar on page 227 moved.
+
+[227
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mkern' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mkern' on input line 3661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3661.
+
+
+LaTeX Warning: Marginpar on page 228 moved.
+
+[228]
+Overfull \hbox (0.11438pt too wide) in paragraph at lines 3702--3707
+\T1/pplj/m/n/10 (+12) this with the condition that our eigenvectors are normali
+zed: $[] \OT1/zplm/m/n/10 = 
+ []
+
+
+LaTeX Warning: Marginpar on page 229 moved.
+
+
+LaTeX Warning: Marginpar on page 229 moved.
+
+
+Overfull \hbox (0.10698pt too wide) in paragraph at lines 3715--3719
+\T1/pplj/m/n/10 (+15) an ar-bi-trary eigen-vec-tor $[]$, we even-tu-ally reach 
+this min-i-mum state: 
+ []
+
+
+LaTeX Warning: Marginpar on page 229 moved.
+
+[229] (./graphics/tool11.tikz)
+Overfull \hbox (0.12186pt too wide) in paragraph at lines 3758--3762
+\T1/pplj/m/n/10 (+19) We've seen these eigenvalues before--- they are the same 
+eigenvalues 
+ []
+
+
+Overfull \hbox (0.11119pt too wide) in paragraph at lines 3758--3762
+\T1/pplj/m/n/10 (+12) associated with the energy eigenfunctions $\OML/zplm/m/it
+/10  []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$\T1/pplj/m/n/10 
+(+12) . That means that we 
+ []
+
+
+LaTeX Warning: Marginpar on page 230 moved.
+
+(./graphics/tool3.tikz)
+
+LaTeX Warning: Marginpar on page 230 moved.
+
+[230]
+
+LaTeX Warning: Marginpar on page 231 moved.
+
+[231]
+Overfull \hbox (0.10158pt too wide) in paragraph at lines 3839--3843
+\T1/pplj/m/n/10 (+20) the eigenvalues $\OML/zplm/m/it/10 $ \T1/pplj/m/n/10 (+2
+0) are generally complex: $\OML/zplm/m/it/10 [] \OMS/zplm/m/n/10 6\OT1/zplm/m/
+n/10 = \OML/zplm/m/it/10 $\T1/pplj/m/n/10 (+20) , so the Hermitian 
+ []
+
+[232] [233]
+Chapter 32.
+<graphics/COW.pdf, id=4219, 684.93887pt x 371.10394pt>
+File: graphics/COW.pdf Graphic file (type pdf)
+ <use graphics/COW.pdf>
+Package pdftex.def Info: graphics/COW.pdf used on input line 3892.
+(pdftex.def)             Requested size: 266.78018pt x 144.54308pt.
+
+[234
+
+ <./graphics/COW.pdf>]
+Overfull \hbox (0.10265pt too wide) in paragraph at lines 3898--3899
+[]\T1/pplj/m/n/10 (+2) Find $\OML/zplm/m/it/10 ^^U[]\OT1/zplm/m/n/10 /\OML/zplm
+/m/it/10 ^^U[]$\T1/pplj/m/n/10 (+2) , the ratio of the wavelength of the neutro
+ns when 
+ []
+
+[235] [236]
+File: graphics/COW.pdf Graphic file (type pdf)
+ <use graphics/COW.pdf>
+Package pdftex.def Info: graphics/COW.pdf used on input line 3953.
+(pdftex.def)             Requested size: 266.78018pt x 144.54308pt.
+
+Overfull \hbox (0.10265pt too wide) in paragraph at lines 3957--3958
+[]\T1/pplj/m/n/10 (+2) Find $\OML/zplm/m/it/10 ^^U[]\OT1/zplm/m/n/10 /\OML/zplm
+/m/it/10 ^^U[]$\T1/pplj/m/n/10 (+2) , the ratio of the wavelength of the neutro
+ns when 
+ []
+
+[237]
+Overfull \hbox (0.15846pt too wide) in paragraph at lines 3985--3991
+\T1/pplj/m/n/10 (+19) We insert in the wavenumber for the top path and then fin
+d the 
+ []
+
+[238] [239] [240] [241]) (./part4.tex [242] [243
+
+]
+Chapter 33.
+(./graphics/tool8.tikz)
+
+LaTeX Warning: Marginpar on page 244 moved.
+
+[244
+
+]
+
+LaTeX Warning: Marginpar on page 245 moved.
+
+
+LaTeX Warning: Marginpar on page 245 moved.
+
+
+Overfull \hbox (0.12808pt too wide) in paragraph at lines 102--103
+\T1/pplj/m/n/10 (+17) eigen-vec-tor of these two op-er-a-tors. We now need to f
+ind eigen-val-ues 
+ []
+
+[245]
+Overfull \hbox (0.12076pt too wide) in paragraph at lines 121--127
+\T1/pplj/m/n/10 (+10) and lowering operators, like we did with the number opera
+tor before. 
+ []
+
+
+LaTeX Warning: Marginpar on page 246 moved.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\muskip' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\divide' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\muskip' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tw@' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mkern' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\muskip' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mkern' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\muskip' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\pm' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mkern' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 144.
+
+[246]
+
+LaTeX Warning: Marginpar on page 247 moved.
+
+
+Overfull \hbox (21.39606pt too wide) in paragraph at lines 179--179
+[]  
+ []
+
+[247] [248]
+Overfull \hbox (0.10844pt too wide) in paragraph at lines 228--230
+[][]\T1/pplj/b/n/10.95 Exercise 33.4 []\T1/pplj/m/n/10 (+19) We focused most of
+ our attention on $[][][]$ and $[][][]$, but 
+ []
+
+[249]
+Chapter 34.
+
+Overfull \hbox (15.36897pt too wide) in paragraph at lines 272--272
+|[]\T1/pplj/m/it/20.74 Orbital and Spin An-gu-lar Mo-men-tum| 
+ []
+
+
+LaTeX Warning: Marginpar on page 250 moved.
+
+[250
+
+]
+
+LaTeX Warning: Marginpar on page 251 moved.
+
+
+Overfull \hbox (22.00314pt too wide) in paragraph at lines 317--343
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 251 moved.
+
+
+Overfull \hbox (21.25276pt too wide) detected at line 347
+[] []\OML/zplm/m/it/10 L [] \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 ^^@\OML/zplm/m/
+it/10 i[]^^N\OT1/zplm/m/n/10 ([] \OMS/zplm/m/n/10 ^^@ [] []\OT1/zplm/m/n/10 ) [
+] \OT1/pplx/m/n/10 .
+ []
+
+[251]
+
+LaTeX Warning: Marginpar on page 252 moved.
+
+
+Overfull \hbox (5.54181pt too wide) in paragraph at lines 412--420
+ [] 
+ []
+
+[252]
+
+LaTeX Warning: Marginpar on page 253 moved.
+
+
+Overfull \hbox (14.50546pt too wide) detected at line 454
+[] \OT1/zplm/m/n/10 = [] \OML/zplm/m/it/10 d^^^ [] d^^R [] ^^R[][]\OT1/zplm/m/n
+/10 (\OML/zplm/m/it/10 ^^R\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 ^^^\OT1/zplm/m/n
+/10 )\OML/zplm/m/it/10 Y[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^R\OT1/pplx/m/n/
+10 , \OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10 ) = \OT1/pplx/m/n/10 4\OML/zplm/m/it
+/10 ^^Y[] [][]
+ []
+
+
+LaTeX Warning: Marginpar on page 253 moved.
+
+[253]
+
+LaTeX Warning: Marginpar on page 254 moved.
+
+[254]
+
+LaTeX Warning: Marginpar on page 255 moved.
+
+
+LaTeX Warning: Marginpar on page 255 moved.
+
+[255] [256]
+Chapter 35.
+(./graphics/tool7.tikz)
+
+LaTeX Warning: Marginpar on page 257 moved.
+
+(./graphics/tool14.tikz)
+
+LaTeX Warning: Marginpar on page 257 moved.
+
+
+LaTeX Warning: Marginpar on page 257 moved.
+
+
+LaTeX Warning: Marginpar on page 257 moved.
+
+
+Overfull \hbox (0.11229pt too wide) in paragraph at lines 596--600
+\T1/pplj/m/n/10 (+16) So the eigen-vec-tors of our Hamil-to-nian for ra-di-ally
+ sym-met-ric po-ten- 
+ []
+
+[257
+
+]
+
+LaTeX Warning: Marginpar on page 258 moved.
+
+
+LaTeX Warning: Marginpar on page 258 moved.
+
+[258] [259]
+
+LaTeX Warning: Marginpar on page 260 moved.
+
+
+LaTeX Warning: Marginpar on page 260 moved.
+
+
+LaTeX Warning: Marginpar on page 260 moved.
+
+
+Overfull \hbox (4.12878pt too wide) in paragraph at lines 772--772
+[]  
+ []
+
+[260]
+Overfull \hbox (8.32124pt too wide) in paragraph at lines 780--794
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--794
+
+ []
+
+[261] [262] [263]
+Chapter 36.
+<graphics/Hydrogen_spectrum.pdf, id=4682, 401.5pt x 160.6pt>
+File: graphics/Hydrogen_spectrum.pdf Graphic file (type pdf)
+
+<use graphics/Hydrogen_spectrum.pdf>
+Package pdftex.def Info: graphics/Hydrogen_spectrum.pdf used on input line 855.
+
+(pdftex.def)             Requested size: 144.00076pt x 57.6003pt.
+
+Overfull \hbox (4.66629pt too wide) in paragraph at lines 856--856
+\T1/pplj/m/n/10 (-20) https://commons.wikimedia.org/ 
+ []
+
+
+Overfull \hbox (0.1052pt too wide) in paragraph at lines 872--876
+\T1/pplj/m/n/10 (+3) We expand this for $\OML/zplm/m/it/10 p \OMS/zplm/m/n/10 ^
+^\ \OML/zplm/m/it/10 mc$ \T1/pplj/m/n/10 (+3) and re-write it in terms of the m
+omentum 
+ []
+
+
+LaTeX Warning: Marginpar on page 264 moved.
+
+
+LaTeX Warning: Marginpar on page 264 moved.
+
+
+LaTeX Warning: Marginpar on page 264 moved.
+
+[264
+
+ <./graphics/Hydrogen_spectrum.pdf>]
+Overfull \hbox (0.1237pt too wide) in paragraph at lines 888--892
+\T1/pplj/m/n/10 (+9) But if we re-organize the time-independent Schrödinger equ
+ation, we 
+ []
+
+[265]
+Overfull \hbox (0.12971pt too wide) in paragraph at lines 960--963
+\T1/pplj/m/n/10 (+17) which then interacts with the electron's spin. The potent
+ial energy of 
+ []
+
+[266]
+
+LaTeX Warning: Marginpar on page 267 moved.
+
+[267]
+Overfull \hbox (29.03035pt too wide) in paragraph at lines 1020--1022
+\T1/pplj/m/n/10 (-20) writ-ten in the $[]$ ba-sis? What is the ex-pec-ta-tion v
+alue $[] [][][] []$?  
+ []
+
+
+Overfull \hbox (7.45248pt too wide) detected at line 1032
+[] \OT1/zplm/m/n/10 = []
+ []
+
+[268]
+Overfull \hbox (48.60063pt too wide) in paragraph at lines 1042--1042
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 269 moved.
+
+[269] [270]
+Chapter 37.
+
+Overfull \hbox (17.1111pt too wide) in paragraph at lines 1085--1085
+|[]\T1/pplj/m/it/20.74 Zeeman Ef-fect and Hy-per-fine Split-ting| 
+ []
+
+
+LaTeX Warning: Marginpar on page 271 moved.
+
+[271
+
+] [272]
+
+LaTeX Warning: Marginpar on page 273 moved.
+
+[273]
+
+LaTeX Warning: Marginpar on page 274 moved.
+
+
+LaTeX Warning: Marginpar on page 274 moved.
+
+[274]
+Overfull \hbox (0.10054pt too wide) in paragraph at lines 1249--1250
+\T1/pplj/m/n/10 (+9) spin states: the electron and nuclear spins could be align
+ed or anti- 
+ []
+
+
+Overfull \hbox (0.14302pt too wide) in paragraph at lines 1258--1262
+\T1/pplj/m/n/10 (+15) also calculate the magnitude of the wavefunction, evaluat
+ed at $[] \OT1/zplm/m/n/10 = 
+ []
+
+[275] [276]
+Chapter 38.
+
+LaTeX Warning: Marginpar on page 277 moved.
+
+[277
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1350.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1350.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1350.
+
+
+LaTeX Warning: Marginpar on page 278 moved.
+
+[278]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1426.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1426.
+
+[279]
+
+LaTeX Warning: Marginpar on page 280 moved.
+
+[280] [281]
+Chapter 39.
+[282
+
+] [283]
+Overfull \hbox (0.10797pt too wide) in paragraph at lines 1566--1567
+\T1/pplj/m/n/10 (+13) and odd parity solutions. For example, the infinite quant
+um well has 
+ []
+
+[284]
+Overfull \hbox (4.46358pt too wide) in paragraph at lines 1580--1583
+[]\T1/fvm/m/n/10 sol = NDSolve[{f''[x] == -e f[x],f[-0.5]==0,f'[-0.5]==0.001}, 
+
+ []
+
+
+Overfull \hbox (4.54358pt too wide) in paragraph at lines 1580--1583
+[]$\T1/fvm/m/n/10 f,{x,-0.5,0.5}] 
+ []
+
+[285] [286] [287]
+Chapter 40.
+
+Overfull \hbox (21.37378pt too wide) in paragraph at lines 1739--1757
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 288 moved.
+
+
+LaTeX Warning: Marginpar on page 288 moved.
+
+[288
+
+]
+
+LaTeX Warning: Marginpar on page 289 moved.
+
+
+Overfull \hbox (5.97466pt too wide) in paragraph at lines 1810--1810
+ \T1/pplj/m/n/10 (-20) trapped 
+ []
+
+
+Overfull \hbox (6.39006pt too wide) in paragraph at lines 1799--1815
+ [] 
+ []
+
+
+Overfull \hbox (1.70914pt too wide) in paragraph at lines 1822--1837
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 289 moved.
+
+[289]
+Overfull \hbox (0.1015pt too wide) in paragraph at lines 1853--1859
+\T1/pplj/m/n/10 (+19) ing Eq. ([][]40.8[][]) in terms of the in-put rais-ing an
+d low-er-ing op-er-a-tors: 
+ []
+
+[290]
+Overfull \hbox (0.12485pt too wide) in paragraph at lines 1889--1894
+ \T1/pplj/m/n/10 (+6) We now model this as the averages of the quantum operator
+s, noting 
+ []
+
+
+LaTeX Warning: Marginpar on page 291 moved.
+
+[291]
+Overfull \hbox (0.13426pt too wide) in paragraph at lines 1935--1937
+\T1/pplj/m/n/10 (+18) model we built in that exercise to show that, for an inpu
+t coherent 
+ []
+
+[292]
+Chapter 41.
+
+Overfull \hbox (0.1209pt too wide) in paragraph at lines 1951--1953
+\T1/pplj/m/n/10 (+5) What is the average distance, with uncertainty, of the ele
+ctron from 
+ []
+
+[293
+
+] [294]
+Overfull \hbox (0.1209pt too wide) in paragraph at lines 1997--1999
+\T1/pplj/m/n/10 (+5) What is the average distance, with uncertainty, of the ele
+ctron from 
+ []
+
+[295]
+Overfull \hbox (6.13812pt too wide) in paragraph at lines 2043--2044
+[]\T1/pplj/b/n/10 Solution: \T1/pplj/m/n/10 (-20) We know that $[] [] \OT1/zplm
+/m/n/10 = [][]\OML/zplm/m/it/10 l\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 l \OT1/zpl
+m/m/n/10 + \OT1/pplx/m/n/10 1\OT1/zplm/m/n/10 ) []$ \T1/pplj/m/n/10 (-20) and $
+[] [] \OT1/zplm/m/n/10 = 
+ []
+
+[296] [297]
+Overfull \hbox (0.10217pt too wide) in paragraph at lines 2158--2161
+[]\T1/pplj/m/n/10 (+17) We know the eigenenergies of both pieces of the wavefun
+ction. 
+ []
+
+
+Overfull \hbox (4.00499pt too wide) detected at line 2161
+\OT1/zplm/m/n/10 	(\OML/zplm/m/it/10 r\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 ^^R\
+OT1/pplx/m/n/10 , \OML/zplm/m/it/10 ^^^\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 t\O
+T1/zplm/m/n/10 ) = []\OML/zplm/m/it/10 e[] []\OT1/zplm/m/n/10 (\OML/zplm/m/it/1
+0 r\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 ^^R\OT1/pplx/m/n/10 , \OML/zplm/m/it/10
+ ^^^\OT1/zplm/m/n/10 ) \OMS/zplm/m/n/10 ^^@ []\OML/zplm/m/it/10 e[] []\OT1/zplm
+/m/n/10 (\OML/zplm/m/it/10 r\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 ^^R\OT1/pplx/m
+/n/10 , \OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 .
+ []
+
+) (./toolbox.tex [298] (./graphics/tool1.tikz) (./graphics/tool2.tikz)
+(./graphics/tool3.tikz) (./graphics/tool4.tikz) (./graphics/tool5.tikz)
+(./graphics/tool6.tikz) (./graphics/tool7.tikz) [299
+
+] (./graphics/tool8.tikz)
+(./graphics/tool9.tikz) (./graphics/tool10.tikz) (./graphics/tool11.tikz)
+Overfull \hbox (45.7983pt too wide) detected at line 74
+\OML/zplm/m/it/10  \OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^U\OT1/zplm/m/n/10 ) = 
+[]  \OML/zplm/m/it/10  \OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) 
+= []  \OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 p[]\OT1/zplm/m/n
+/10 ) = []  \OML/zplm/m/it/10  \OT1/zplm/m/n/10 ([]) \OMS/zplm/m/n/10 ^^Q []  \
+OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10 ([]) \OMS/zplm/m/n/10 ^^Q [] \OT1/pplx/m/n
+/10 .
+ []
+
+(./graphics/tool12.tikz) (./graphics/tool13.tikz) (./graphics/tool14.tikz)
+[300] [301])
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+*********************************************************************
+[302]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+ (./phy315book.aux
+
+Package Changebar Warning: Changebar info has changed.
+(Changebar)                Rerun to get the bars right on input line 3834.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+Package rerunfilecheck Info: File `phy315book.out' has not changed.
+(rerunfilecheck)             Checksum: 8C5F2949EE02C5C613FFDE4BAA5C5B6F;32479.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+ ) 
+Here is how much of TeX's memory you used:
+ 54731 strings out of 493014
+ 1013829 string characters out of 6133351
+ 1695900 words of memory out of 5000000
+ 54280 multiletter control sequences out of 15000+600000
+ 133484 words of font info for 460 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 65i,23n,78p,37478b,3484s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+ </Users/setup/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.
+600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1
+.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/fpl/fplrij8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/bera/fvmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-su
+per/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-supe
+r/sfti1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/
+sfti1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8
+a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on phy315book.pdf (302 pages, 3262737 bytes).
+PDF statistics:
+ 5852 PDF objects out of 6186 (max. 8388607)
+ 5324 compressed objects within 54 object streams
+ 2609 named destinations out of 2984 (max. 500000)
+ 67146 words of extra memory for PDF output out of 74296 (max. 10000000)
+

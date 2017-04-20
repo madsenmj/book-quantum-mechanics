@@ -1,0 +1,189 @@
+
+%----------------------------------------------------------------------------------------
+% Quantum Mechanic's Toolbox
+%----------------------------------------------------------------------------------------
+
+
+\chapter*{Quantum Mechanic's Toolbox}
+This is a collection of the tools in our toolbox.
+
+%tool1
+\ref{tool:decom} This tool is used to write a state vector in terms of a set of orthonormal basis vectors.
+\[
+\ket{A} = \sum_j \alpha_j \ket{j},
+\]
+where $\alpha_j$ are complex numbers.
+
+%tool2
+\ref{tool:orthog} This tool is used to collapse a sum using the inner product of two orthonormal state vectors.
+\[
+\avg{k|A} = \bra{k} \left( \sum_j \alpha_j \ket{j} \right)= \alpha_k.
+\]
+
+%tool3
+\ref{tool:span} This tool is used to insert a complete set of basis vectors and project a state vector onto that basis.
+\[
+\sum_j \ket{j}\bra{j} = \onehat \qquad \int_{-\infty}^{\infty} \ket{\lambda}\bra{\lambda} = \onehat. 
+\]
+
+%tool4
+\ref{tool:prob} This tool is used to calculate the probability of measuring a particular outcome of a quantum state.
+\[
+P(\rmt{measuring } \ket{\lambda}) = \abs{\avg{\lambda|\Psi}}^2 = P(a,b) = \int\displaylimits_a^b\psi^{*}(x)\psi^{}(x)dx.
+\]
+
+%tool5
+\ref{tool:avg} This tool is used to find the average measurement value of an operator for an input state.
+\[
+\avg{\hat{L}} = \bra{\Psi_\rmt{in}}\hat{L}\ket{\Psi_\rmt{in}} =  \sum_j P(\lambda_j)\lambda_j = \Tr \oprod{\Psi}{\Psi}\hat{L}.
+\]
+
+%tool6
+\ref{tool:eigen} This tool is used to evaluate the operation of a linear operator on one of its eigenvectors. It returns the eigenvalue and the eigenvector.
+\[
+\hat{L}\ket{\lambda} = \lambda\ket{\lambda}.
+\]
+
+%tool7
+\ref{tool:sch} This tool is used to find the time evolution of a quantum state.
+\[
+\I \hbar \frac {d}{dt}\ket{\Psi} = \hat{H}\ket{\Psi}
+\]
+%tool8
+\ref{tool:commutator} This tool is used to find the commutation relationship between two operators.
+\[
+\com{\hat{A},\hat{B}}=\hat{A}\hat{B} - \hat{B}\hat{A}
+\]
+
+%tool9
+\ref{tool:meunc} This tool is used to find the uncertainty in the measurement associated with an operator.
+\[
+\Delta L= \left[\avg{\hat{L}^2} - \avg{\hat{L}}^2\right]^{1/2}.
+\]
+
+%tool10
+\ref{tool:genuncert} This tool is used to find the uncertainty relationship between two operators.
+\[
+\Delta A \Delta B \geq \frac{1}{2} \abs{\bra{\Psi}\com{\hat{A},\hat{B}}\ket{\Psi}}.
+\]
+
+%tool11
+\ref{tool:wavefunction} This tool is used to determine the continuous wavefunction in a particular basis.
+\[
+\psi(\lambda) = \avg{\lambda|\Psi}\quad \psi(x) = \avg{x|\Psi}\quad \phi(p_x) = \avg{p_x|\Psi} \quad \psi(\vec{r}) \equiv \avg{\vec{r}|\Psi} \quad \phi(\vec{p}) \equiv \avg{\vec{p}|\Psi}.
+\]
+
+%tool12 - Fourier Transforms
+\ref{tool:FTtool} This tool is used to transform a wavefunction back and forth from the position to the momentum bases.
+\[
+\begin{split}
+\phi(p_x)= &  \frac{1}{\sqrt{2\pi\hbar}}\int\displaylimits_{-\infty}^{\infty}\E{-\I \frac{p_x}{\hbar} x} \psi(x) dx\\
+\psi(x) = &  \frac{1}{\sqrt{2\pi\hbar}}\int\displaylimits_{-\infty}^{\infty}\E{\I \frac{p_x}{\hbar} x} \phi(p_x) dp_x.
+\end{split}
+\begin{split}
+\displaystyle \phi(\vec{p})& = \frac{1}{(2\pi\hbar)^{3/2}}\int \psi(\vec{r})\E{-\I\vec{p}\cdot \vec{r}/\hbar}d^{3}r.\\
+\displaystyle \psi(\vec{r}) &= \frac{1}{(2\pi\hbar)^{3/2}}\int \phi(\vec{p})\E{\I\vec{p}\cdot \vec{r}/\hbar}d^{3}p.
+\end{split}
+\]
+
+%tool13 - TDSWE
+
+\ref{tool:TDSWE} This tool is used to find the time evolution of a quantum wavefunction in the position basis in a position-dependent potential.
+\[
+\I\hbar \frac{\partial \psi(\vec{r},t)}{\partial t} =-\frac{\hbar^2}{2m}\vec{\nabla}^2\psi(\vec{r},t) + V(\vec{r}) \psi(\vec{r},t).
+\]
+
+%tool14 - TISWE
+\ref{tool:TISWE} This tool is used to find the energy eigenvalues for a the time-independent Schr\"{o}dinger equation in the position basis.
+\[
+-\frac{\hbar^2}{2m}\vec{\nabla}^2\psi_E(\vec{r}) + V(\vec{r}) \psi_E(\vec{r})= E \psi_E(\vec{r})
+\]
+
+Path Integral
+\[
+C_{1,2} =\int\displaylimits_{-\infty}^{\infty}\bra{x_2} \E{-\I \frac{\hat{H}}{\hbar} \Delta t/2}\ket{x}\bra{x}\E{-\I \frac{\hat{H}}{\hbar} \Delta t/2}\ket{x_1}dx.
+\]
+
+First-order time-independent perturbation model
+\[
+E_n^1 = \bra{\psi_n^0}\hat{H}'\ket{\psi_n^0}
+\]
+
+Time-dependent perturbation model
+\[
+\begin{split}
+\dot{c}_a =& -\frac{\I}{\hbar} c_b H'_{ab} \E{-\I\omega_0 t} \\
+\dot{c}_b =&  -\frac{\I}{\hbar} c_a H'_{ba} \E{\I\omega_0 t}
+\end{split}
+\]
+
+Number Operators
+\[
+\begin{split}
+\Ap = & \left(\sqrt{\frac{m \omega_0}{2\hbar}}\hat{X}+ \frac{\hat{P}_x }{\I\sqrt{2m\hbar\omega_0}}\right)\\
+\Am = & \left(\sqrt{\frac{m \omega_0}{2\hbar}}\hat{X}- \frac{\hat{P}_x }{\I\sqrt{2m\hbar\omega_0}}\right)\\
+\Ap\ket{n} = & \sqrt{n+1}\ket{n+1}\\
+\Am\ket{n} = & \sqrt{n}\ket{n-1}\\
+\hat{N}\ket{n} = & \Ap\Am\ket{n} = n\ket{n},\; n=0,1,2,\ldots
+\end{split}
+\]
+
+Angular Momentum Operator
+\[
+\vec{L} = \vec{r}\times\vec{p} \rightarrow \begin{aligned}
+L_x = & yp_z - zp_y\\
+L_y = & zp_x - xp_z\\
+L_z = & xp_y - yp_x\\
+\end{aligned}
+\]
+
+Generalized Angular Momentum
+\[
+\begin{split}
+\com{\Jh_1,\Jh_2} =& \I\hbar\Jh_3\\
+\com{\Jh_2,\Jh_3} =& \I\hbar\Jh_1\\
+\com{\Jh_3,\Jh_1} =& \I\hbar\Jh_2\\
+\Jh^2 = &\Jh_1^2 + \Jh_2^2 +\Jh_3^2\\
+\com{\Jh^2,\Jh_1} = & \com{\Jh^2,\Jh_2} = \com{\Jh^2,\Jh_3} = 0
+\end{split}
+\]
+
+\[
+\begin{split}
+\Jh^2\ket{jm_j} = & j(j+1)\hbar^2\ket{jm_j}\\
+\Jh_3\ket{jm_j} = & m_j\hbar \ket{jm_j} \\
+j =& 0,\frac{1}{2},1,\frac{3}{2},\ldots \\ 
+m_j =& -j,-j+1,-j+2,\ldots,j-2,j-1,j\; \rmt{ and}\\
+\Jpm\ket{jm_j} = &\hbar \sqrt{j(j+1) - m_j(m_j\pm1)} \ket{j(m_j\pm1)}.
+\end{split}
+\]
+
+Spherical Harmonics in Position Basis
+\[
+\Ylm(\theta,\phi)=\sqrt{\frac{(2l+1)(l-m_l)!}{4\pi(l+m_l)!}} P_l^{m_l}(\cos\theta) \E{\I m_l\phi}
+\]
+
+Normalized Radial Coulomb Wavefunction
+\[
+R_{nl}(r) = \sqrt{\left(\frac{2}{n a_0}\right)^3\frac{(n-l-1)!}{2n\left[(n+l)!\right]^3}}\E{-\frac{r}{na_0}}\left(\frac{2r}{na_0}\right)^l L_{n-l-1}^{2l+1}\left(\frac{2r}{na_0}\right).
+\]
+
+%---------------------------------
+% Useful items
+%---------------------------------
+\subsection{Matrix Representations}
+This is a table of the matrix representations for common states and operators.
+\bas
+\ket{u},\ket{V} \Meq & \vket{1}{0} & \ket{d},\ket{H} \Meq & \vket{0}{1} \nonumber\\
+\ket{r},\ket{D_R} \Meq & \frac{1}{\stwo}\vket{1}{1} & \ket{\ell},\ket{D_L} \Meq & \frac{1}{\stwo}\vket{1}{-1} \nonumber\\
+\ket{i},\ket{C_R} \Meq & \frac{1}{\stwo}\vket{1}{\I} & \ket{o},\ket{C_L} \Meq & \frac{1}{\stwo}\vket{1}{-\I} \nonumber\\
+\hat{\sigma}_1 \Meq &\sxmatrix  & \hat{S}_x \Meq& \frac{\hbar}{2}\sxmatrix \nonumber\\
+\hat{\sigma}_2 \Meq &\symatrix  & \hat{S}_y \Meq& \frac{\hbar}{2}\symatrix \nonumber\\
+\hat{\sigma}_3 \Meq &\szmatrix  & \hat{S}_z \Meq& \frac{\hbar}{2}\szmatrix \nonumber
+\eas
+
+
+
+
+
+%sagemathcloud={"latex_command":""}

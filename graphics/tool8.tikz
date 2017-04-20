@@ -1,0 +1,24 @@
+% tool8
+\begin{tikzpicture}[x=.7ex,y=.7ex]
+  
+  
+  \begin{scope}[very thin]
+\filldraw[draw=blue,fill=black!20,thick] (-2,0)--(2,0)--(3,2)--(0,4.5)--(-3,2)--cycle;   
+   
+\filldraw[fill=green,rounded corners=1,shift={(0,1)}] (-1,.5) rectangle +(2,.6);
+
+        \filldraw[fill=green] (1.5,.6) circle (0.25);
+        \filldraw[fill=blue] (-1.5,.6) circle (0.25);
+        \filldraw[fill=green] (-2,1.6) circle (0.25);
+        \filldraw[fill=blue] (2,1.6) circle (0.25);
+
+    \filldraw[draw=red,fill=white,rounded corners=1] (0,4.5) -- (1,3) -- (0,2.5) -- (-1,3) -- cycle;
+
+        \begin{scope}[color=cyan,shift={(0,1.5)}]
+            \draw (-.6,-.6) -- (.6,-.6);
+            \draw (-.4,-.8) -- (.4,-.8);
+            \draw (-.6,-1) -- (.6,-1);
+        \end{scope}
+
+    \end{scope}
+\end{tikzpicture}

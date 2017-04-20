@@ -1,0 +1,21 @@
+\begin{tikzpicture}[x=0.7ex,y=0.7ex]
+
+    \begin{scope}[rotate=45,very thin]
+        \filldraw[fill=black!20,rounded corners=1] (0,0) -- (5,0) -- (5,3) -- (0,3) -- (-0.5,2.5) -- (-0.5,0.5) -- cycle;
+        \filldraw[fill=green] (4,0.5) rectangle (4.5,2.5);
+        \filldraw[fill=blue] (3,0.75) circle (0.25);
+        \filldraw[fill=blue] (3,2.25) circle (0.25);
+        \filldraw[fill=yellow] (1.5,0.5) rectangle (2,2.5);
+
+        \filldraw[fill=green,rounded corners=1] (1.3,1.1) rectangle (2.2,1.4);
+        \begin{scope}[color=cyan]
+            \draw (0,1) -- (0,2);
+            \draw (0.25,1.25) -- (0.25,1.75);
+            \draw (0.5,1) -- (0.5,2);
+        \end{scope}
+        \begin{scope}[color=red]
+        \foreach \x in {0.25,0.5,...,2.75}
+            \draw (5, \x) -- ( 5+\x^2 - 3.0*\x + 1.5*1.5+0.5, \x);
+        \end{scope}
+    \end{scope}
+\end{tikzpicture}

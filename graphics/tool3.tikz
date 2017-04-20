@@ -1,0 +1,27 @@
+\begin{tikzpicture}[x=0.7ex,y=0.7ex]
+  
+  
+  \begin{scope}[very thin]
+        \filldraw[fill=black!20,rounded corners=2] (0,0) -- (2,1) -- (3,1) -- (5,0) -- (5,4) -- (3,3) -- (2,3) -- (0,4) -- (0,0);
+        
+   
+        
+\filldraw[rotate around={30:(3.5,2.2)}, fill=green,rounded corners=1] (3.5,2.2) rectangle +(1.3,.4);
+
+\filldraw[rotate around={-30:(1.5,2.2)}, fill=green,rounded corners=1] (1.5,2.2) rectangle +(-1.3,.4);
+
+        \filldraw[fill=blue] (0.7,1.0) circle (0.25);
+        \filldraw[fill=green] (1.6,1.3) circle (0.25);
+        \filldraw[fill=green] (3.4,1.3) circle (0.25);
+        \filldraw[fill=blue] (4.3,1.0) circle (0.25);
+        
+        \begin{scope}[color=cyan]
+            \draw (2,1) -- (2,3);
+            \draw (2.5,1.75) -- (2.5,2.25);
+            \draw (3,1) -- (3,3);
+        \end{scope}
+\draw[
+red, thick, decorate, decoration={snake,amplitude=1,segment length=2}](4.5,3.8) .. controls(2.5,4.5) .. (0.5,3.8);
+\draw[red, thick, decorate, decoration={snake,amplitude=1,segment length=2}](4.2,3.7) .. controls(2.5,4.2) .. (0.8,3.7);
+    \end{scope}
+\end{tikzpicture}

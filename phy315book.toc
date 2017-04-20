@@ -1,0 +1,232 @@
+\contentsline {part}{I\hspace {1em}Introduction to Quantum States }{7}{part.1}
+\contentsline {chapter}{\numberline {1}Classical Physics Review}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Conservation Laws}{8}{section.1.1}
+\contentsline {section}{\numberline {1.2}Electricity and Magnetism}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}Electromagnetic Waves}{10}{section.1.3}
+\contentsline {subsection}{Field Superposition}{11}{subsection*.2}
+\contentsline {section}{\numberline {1.4}Waves}{11}{section.1.4}
+\contentsline {subsection}{General Interference}{12}{subsection*.3}
+\contentsline {subsection}{Math Interlude: Complex Numbers}{13}{subsection*.4}
+\contentsline {section}{\numberline {1.5}Complex Electromagnetic Wave Amplitude Model (CEWAM)}{13}{section.1.5}
+\contentsline {chapter}{\numberline {2}Creating Electromagnetic Waves}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}Classically Accelerated Charges}{16}{section.2.1}
+\contentsline {subsection}{Larmor Radiation}{16}{subsection*.5}
+\contentsline {section}{\numberline {2.2}Hydrogen Radiation Problem}{18}{section.2.2}
+\contentsline {section}{\numberline {2.3}Bohr Model}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Detecting Electromagnetic Waves}{20}{section.2.4}
+\contentsline {subsection}{Electron Detection}{21}{subsection*.6}
+\contentsline {chapter}{\numberline {3}Quantized Electromagnetic Waves}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Beamsplitters}{24}{section.3.1}
+\contentsline {subsection}{Second-order Correlation}{25}{subsection*.7}
+\contentsline {section}{\numberline {3.2}Coincidence Measurements}{26}{section.3.2}
+\contentsline {section}{\numberline {3.3}Polarizing Beamsplitter}{27}{section.3.3}
+\contentsline {chapter}{\numberline {4}Rotated Measurements and Vector Spaces}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Polarization Rotators}{29}{section.4.1}
+\contentsline {subsection}{Propositions}{30}{subsection*.8}
+\contentsline {section}{\numberline {4.2}Quantum Propositions}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Linear Vector Spaces}{32}{section.4.3}
+\contentsline {subsection}{Bras and Kets}{35}{subsection*.9}
+\contentsline {chapter}{\numberline {5}Quantum States and Vectors}{36}{chapter.5}
+\contentsline {section}{\numberline {5.1}Inner Products}{36}{section.5.1}
+\contentsline {subsection}{Normalization}{36}{subsection*.10}
+\contentsline {subsection}{Orthogonality}{37}{subsection*.11}
+\contentsline {section}{\numberline {5.2}Orthonormal Basis Vectors}{37}{section.5.2}
+\contentsline {section}{\numberline {5.3}Modeling Quantum States}{39}{section.5.3}
+\contentsline {subsection}{Paramatrization}{40}{subsection*.12}
+\contentsline {section}{\numberline {5.4}Probabilities}{40}{section.5.4}
+\contentsline {section}{\numberline {5.5}A Second Orthonormal Basis}{41}{section.5.5}
+\contentsline {section}{\numberline {5.6}One more Basis}{43}{section.5.6}
+\contentsline {section}{\numberline {5.7}Matrix Representation}{44}{section.5.7}
+\contentsline {chapter}{\numberline {6}A New Quantum System}{46}{chapter.6}
+\contentsline {section}{\numberline {6.1}Atomic Magnetic Dipole Moment}{46}{section.6.1}
+\contentsline {subsection}{Expected Result}{47}{subsection*.13}
+\contentsline {subsection}{Actual Result}{47}{subsection*.14}
+\contentsline {section}{\numberline {6.2}Rotated Spin Measurement}{48}{section.6.2}
+\contentsline {section}{\numberline {6.3}Changing Bases}{48}{section.6.3}
+\contentsline {section}{\numberline {6.4}The Bloch Sphere}{51}{section.6.4}
+\contentsline {chapter}{\numberline {7}Quantum Operators}{52}{chapter.7}
+\contentsline {section}{\numberline {7.1}Linear Operators}{52}{section.7.1}
+\contentsline {subsection}{Matrix Representation}{53}{subsection*.15}
+\contentsline {section}{\numberline {7.2}Linear Operators acting on bra-vectors}{54}{section.7.2}
+\contentsline {section}{\numberline {7.3}Operator Eigenvalues and Eigenvectors}{55}{section.7.3}
+\contentsline {section}{\numberline {7.4}Hermitian Operators}{55}{section.7.4}
+\contentsline {section}{\numberline {7.5}Spin Operators}{56}{section.7.5}
+\contentsline {chapter}{\numberline {8}Quantum Mechanic's Model}{59}{chapter.8}
+\contentsline {section}{\numberline {8.1}The Quantum Model}{59}{section.8.1}
+\contentsline {section}{\numberline {8.2}Average Measurements}{59}{section.8.2}
+\contentsline {section}{\numberline {8.3}Averaging in a Specific Basis}{62}{section.8.3}
+\contentsline {subsection}{Common Misconception}{64}{subsection*.16}
+\contentsline {section}{\numberline {8.4}Non-uniqueness of the Quantum State}{64}{section.8.4}
+\contentsline {chapter}{\numberline {9}Part \ref {part1} Summary and Test}{66}{chapter.9}
+\contentsline {part}{II\hspace {1em}Using Quantum States }{70}{part.2}
+\contentsline {chapter}{\numberline {10}Time Evolution of a Quantum State}{71}{chapter.10}
+\contentsline {section}{\numberline {10.1}Properties of $\mathaccentV {hat}45E{U}$}{71}{section.10.1}
+\contentsline {section}{\numberline {10.2}Small Time Steps}{72}{section.10.2}
+\contentsline {section}{\numberline {10.3}Time-Independent Schr\"{o}dinger Equation}{73}{section.10.3}
+\contentsline {chapter}{\numberline {11}Commutators and Measurement Uncertainty}{77}{chapter.11}
+\contentsline {section}{\numberline {11.1}Commutators}{77}{section.11.1}
+\contentsline {section}{\numberline {11.2}Conservation Laws}{79}{section.11.2}
+\contentsline {section}{\numberline {11.3}Uncertainty in Measurement}{79}{section.11.3}
+\contentsline {section}{\numberline {11.4}Eigenvalue Degeneracy}{81}{section.11.4}
+\contentsline {chapter}{\numberline {12}Multiple Parameters Describing a State}{84}{chapter.12}
+\contentsline {section}{\numberline {12.1}Triangle Inequality}{84}{section.12.1}
+\contentsline {section}{\numberline {12.2}Uncertainty Principle}{85}{section.12.2}
+\contentsline {section}{\numberline {12.3}Energy-Time Uncertainty Relationship}{87}{section.12.3}
+\contentsline {chapter}{\numberline {13}Multiple Quantum Systems}{90}{chapter.13}
+\contentsline {section}{\numberline {13.1}Tensor Products}{90}{section.13.1}
+\contentsline {section}{\numberline {13.2}Quantum States}{91}{section.13.2}
+\contentsline {section}{\numberline {13.3}Product States}{91}{section.13.3}
+\contentsline {section}{\numberline {13.4}Entangled States}{93}{section.13.4}
+\contentsline {section}{\numberline {13.5}Correlations}{95}{section.13.5}
+\contentsline {subsection}{Classical Correlations}{95}{subsection*.17}
+\contentsline {subsection}{Quantum Correlation}{96}{subsection*.18}
+\contentsline {chapter}{\numberline {14}Composite Operators}{98}{chapter.14}
+\contentsline {section}{\numberline {14.1}Math Interlude: Outer Products}{99}{section.14.1}
+\contentsline {section}{\numberline {14.2}The Trace}{101}{section.14.2}
+\contentsline {chapter}{\numberline {15}The Density Matrix}{103}{chapter.15}
+\contentsline {section}{\numberline {15.1}Density Matrix}{103}{section.15.1}
+\contentsline {section}{\numberline {15.2}Pure States vs Mixed States}{106}{section.15.2}
+\contentsline {subsection}{Density operator after measurement}{107}{subsection*.19}
+\contentsline {section}{\numberline {15.3}Decoherence}{107}{section.15.3}
+\contentsline {section}{\numberline {15.4}Thermal States}{108}{section.15.4}
+\contentsline {chapter}{\numberline {16}Entanglement Tests}{110}{chapter.16}
+\contentsline {section}{\numberline {16.1}Compound Density Operator}{110}{section.16.1}
+\contentsline {subsection}{Product State Reduced Density Operator}{111}{subsection*.20}
+\contentsline {subsection}{Decoherence and Measurement}{113}{subsection*.21}
+\contentsline {section}{\numberline {16.2}Entanglement and Locality}{115}{section.16.2}
+\contentsline {section}{\numberline {16.3}Bell Inequality Entanglement Test}{116}{section.16.3}
+\contentsline {section}{\numberline {16.4}Entanglement and Measurement Instruments}{118}{section.16.4}
+\contentsline {chapter}{\numberline {17}Continuous Quantum States}{120}{chapter.17}
+\contentsline {section}{\numberline {17.1}Wavefunctions}{120}{section.17.1}
+\contentsline {section}{\numberline {17.2}Position Basis}{121}{section.17.2}
+\contentsline {subsection}{The Dirac Delta}{121}{subsection*.22}
+\contentsline {subsection}{Back to Continuous States}{122}{subsection*.23}
+\contentsline {section}{\numberline {17.3}Measurement Probabilities}{123}{section.17.3}
+\contentsline {section}{\numberline {17.4}Continuous Operators}{126}{section.17.4}
+\contentsline {subsection}{The Position Operator}{126}{subsection*.24}
+\contentsline {chapter}{\numberline {18}Momentum Eigenvectors}{130}{chapter.18}
+\contentsline {section}{\numberline {18.1}Momentum Basis}{130}{section.18.1}
+\contentsline {section}{\numberline {18.2}Momentum operator in the position basis}{132}{section.18.2}
+\contentsline {section}{\numberline {18.3}Switching between bases}{134}{section.18.3}
+\contentsline {section}{\numberline {18.4}Position and momentum uncertainty relationship}{137}{section.18.4}
+\contentsline {subsection}{Observing momentum in the position basis}{137}{subsection*.25}
+\contentsline {chapter}{\numberline {19}Dynamics is 1D position space}{140}{chapter.19}
+\contentsline {section}{\numberline {19.1}Free space Hamiltonian}{140}{section.19.1}
+\contentsline {section}{\numberline {19.2}Traveling Wave Properties}{141}{section.19.2}
+\contentsline {section}{\numberline {19.3}Velocity and Momentum}{144}{section.19.3}
+\contentsline {chapter}{\numberline {20}Part \ref {part2} Summary and Test}{146}{chapter.20}
+\contentsline {part}{III\hspace {1em}Interference And Quantum Bound States }{152}{part.3}
+\contentsline {chapter}{\numberline {21}MWM Interference}{153}{chapter.21}
+\contentsline {section}{\numberline {21.1}Single Slit Diffraction}{153}{section.21.1}
+\contentsline {section}{\numberline {21.2}Diffraction with Gratings}{155}{section.21.2}
+\contentsline {section}{\numberline {21.3}Three-Grating Interferometers}{156}{section.21.3}
+\contentsline {section}{\numberline {21.4}Path Integral Model}{157}{section.21.4}
+\contentsline {section}{\numberline {21.5}Simple Mach-Zehnder Matter Interferometer}{158}{section.21.5}
+\contentsline {subsection}{Wavefunction Propagation}{159}{subsection*.26}
+\contentsline {subsection}{Beamsplitters}{159}{subsection*.27}
+\contentsline {subsection}{Mirrors}{160}{subsection*.28}
+\contentsline {subsection}{Detection Probability}{160}{subsection*.29}
+\contentsline {subsection}{Path ABD}{160}{subsection*.30}
+\contentsline {subsection}{Path ACD}{161}{subsection*.31}
+\contentsline {subsection}{Probability Density for Reaching Detector \#1}{161}{subsection*.32}
+\contentsline {chapter}{\numberline {22}Wave Packets}{164}{chapter.22}
+\contentsline {section}{\numberline {22.1}Gaussian wave packets}{164}{section.22.1}
+\contentsline {subsection}{Modeling a Classical Particle}{164}{subsection*.33}
+\contentsline {subsection}{Properties of a Gaussian Probability Distribution}{165}{subsection*.34}
+\contentsline {subsection}{Gaussian Wave Packet}{165}{subsection*.35}
+\contentsline {section}{\numberline {22.2}Time Dependent Gaussian Wave Packet}{167}{section.22.2}
+\contentsline {chapter}{\numberline {23}Wave Packet Coherence}{170}{chapter.23}
+\contentsline {section}{\numberline {23.1}Dispersion}{170}{section.23.1}
+\contentsline {section}{\numberline {23.2}Coherence Time and Length}{171}{section.23.2}
+\contentsline {section}{\numberline {23.3}Modified M-Z Interferometer}{172}{section.23.3}
+\contentsline {chapter}{\numberline {24}Motion in a Constant Potential}{175}{chapter.24}
+\contentsline {section}{\numberline {24.1}Three-Dimensional Wavefunctions and Operators}{175}{section.24.1}
+\contentsline {subsection}{Position Operator and Wave Function}{175}{subsection*.36}
+\contentsline {subsection}{Non-Cartesian Coordinate Systems}{177}{subsection*.37}
+\contentsline {subsection}{Momentum in 3-Dimensional Space}{179}{subsection*.38}
+\contentsline {subsection}{Relations between Position and Momentum Wave Functions}{180}{subsection*.39}
+\contentsline {section}{\numberline {24.2}3D Schr\"{o}dinger Equation}{182}{section.24.2}
+\contentsline {section}{\numberline {24.3}Constant Potential}{183}{section.24.3}
+\contentsline {chapter}{\numberline {25}Quantum Scattering}{185}{chapter.25}
+\contentsline {section}{\numberline {25.1}Potential Barrier}{185}{section.25.1}
+\contentsline {section}{\numberline {25.2}Probability Current}{186}{section.25.2}
+\contentsline {subsection}{Math Interlude: Integration by Parts}{186}{subsection*.40}
+\contentsline {section}{\numberline {25.3}Transmission and Reflection}{187}{section.25.3}
+\contentsline {section}{\numberline {25.4}Tunneling Barrier}{189}{section.25.4}
+\contentsline {chapter}{\numberline {26}Strongly Confined Systems}{191}{chapter.26}
+\contentsline {section}{\numberline {26.1}1D Quantum Dot Model}{191}{section.26.1}
+\contentsline {subsection}{Infinite Quantum Well}{192}{subsection*.41}
+\contentsline {subsection}{Time-dependent superposition states}{194}{subsection*.42}
+\contentsline {section}{\numberline {26.2}3D Quantum Dot Model}{196}{section.26.2}
+\contentsline {section}{\numberline {26.3}Time-Independent Perturbation Model}{196}{section.26.3}
+\contentsline {chapter}{\numberline {27}Transitions Between States}{199}{chapter.27}
+\contentsline {section}{\numberline {27.1}Time-dependent Perturbation Model}{199}{section.27.1}
+\contentsline {section}{\numberline {27.2}Dipole Transitions}{200}{section.27.2}
+\contentsline {subsection}{Resonant Transitions}{203}{subsection*.43}
+\contentsline {section}{\numberline {27.3}Rabi Oscillations}{204}{section.27.3}
+\contentsline {section}{\numberline {27.4}Oscillator Strength}{205}{section.27.4}
+\contentsline {chapter}{\numberline {28}Finite Confinement}{207}{chapter.28}
+\contentsline {subsection}{TISWE in Zone II}{208}{subsection*.44}
+\contentsline {subsection}{TISWE in Zones I and III}{208}{subsection*.45}
+\contentsline {section}{\numberline {28.1}Even Parity Eigenfunctions}{210}{section.28.1}
+\contentsline {subsection}{Odd-Parity Eigenfunctions}{212}{subsection*.46}
+\contentsline {section}{\numberline {28.2}Transitions}{213}{section.28.2}
+\contentsline {chapter}{\numberline {29}Multiple Wells and Tunneling}{214}{chapter.29}
+\contentsline {section}{\numberline {29.1}Wavefunction Solutions}{214}{section.29.1}
+\contentsline {subsection}{Boundary Conditions}{215}{subsection*.47}
+\contentsline {section}{\numberline {29.2}Even-parity Wavefunctions}{215}{section.29.2}
+\contentsline {section}{\numberline {29.3}Static and Dynamic Wavefunctions}{217}{section.29.3}
+\contentsline {section}{\numberline {29.4}Tunneling}{219}{section.29.4}
+\contentsline {chapter}{\numberline {30}Quantum Harmonic Oscillator: Position Basis}{221}{chapter.30}
+\contentsline {section}{\numberline {30.1}Harmonic Potentials}{221}{section.30.1}
+\contentsline {section}{\numberline {30.2}SHO in the Position Basis}{222}{section.30.2}
+\contentsline {section}{\numberline {30.3}Dynamics and Transitions in the QSHO}{224}{section.30.3}
+\contentsline {chapter}{\numberline {31}Quantum Harmonic Oscillator: Number Basis}{227}{chapter.31}
+\contentsline {section}{\numberline {31.1}Properties of $\mathaccentV {hat}45E{\cal A}_{+}\mkern -1mu$ and $\mathaccentV {hat}45E{\cal A}_{-}\mkern -1mu$}{228}{section.31.1}
+\contentsline {section}{\numberline {31.2}TISWE in the Number Basis}{230}{section.31.2}
+\contentsline {section}{\numberline {31.3}Transitions in the Number Basis}{232}{section.31.3}
+\contentsline {chapter}{\numberline {32}Part \ref {part3} Review and Test}{234}{chapter.32}
+\contentsline {part}{IV\hspace {1em}Atomic Quantum States }{243}{part.4}
+\contentsline {chapter}{\numberline {33}Angular Momentum Operators}{244}{chapter.33}
+\contentsline {section}{\numberline {33.1}Angular Momentum Operator}{244}{section.33.1}
+\contentsline {section}{\numberline {33.2}General Angular Momentum}{245}{section.33.2}
+\contentsline {section}{\numberline {33.3}Raising and Lowering Angular Momentum Operators}{246}{section.33.3}
+\contentsline {section}{\numberline {33.4}Properties of ${\muskip \z@ 4mu\divide \muskip \z@ \tw@ \mkern \muskip \z@ \mathaccentV {hat}45E{\mkern -\muskip \z@ {\textrm {\fontfamily {cmr}\selectfont \textit {J}}}\mkern \muskip \z@ }\mkern -\muskip \z@ }{}_{\pm }\mkern -1mu$}{247}{section.33.4}
+\contentsline {chapter}{\numberline {34}Orbital and Spin Angular Momentum}{250}{chapter.34}
+\contentsline {section}{\numberline {34.1}Orbital Angular Momentum in the Position Basis}{251}{section.34.1}
+\contentsline {section}{\numberline {34.2}Orbital Angular Momentum Wavefunction}{252}{section.34.2}
+\contentsline {subsection}{The $\phi $-dependence of $Y_l^{m_l}$}{252}{subsection*.48}
+\contentsline {subsection}{The $\theta $-dependence of $Y_l^{m_l}$}{253}{subsection*.49}
+\contentsline {section}{\numberline {34.3}Combined Spin and Angular Momentum}{254}{section.34.3}
+\contentsline {chapter}{\numberline {35}Radially Symmetric Potentials}{257}{chapter.35}
+\contentsline {section}{\numberline {35.1}Spherical Quantum Dot}{258}{section.35.1}
+\contentsline {section}{\numberline {35.2}Coulomb Potential Well}{259}{section.35.2}
+\contentsline {section}{\numberline {35.3}Hydrogen Atom Electron Quantum States}{261}{section.35.3}
+\contentsline {subsection}{Transitions}{262}{subsection*.50}
+\contentsline {chapter}{\numberline {36}Fine Structure Model}{264}{chapter.36}
+\contentsline {section}{\numberline {36.1}Relativistic Correction}{264}{section.36.1}
+\contentsline {section}{\numberline {36.2}Spin-orbit Coupling Model}{266}{section.36.2}
+\contentsline {subsection}{Combined Spin and Angular Momentum}{267}{subsection*.51}
+\contentsline {subsection}{Radial Component Shift}{269}{subsection*.52}
+\contentsline {chapter}{\numberline {37}Zeeman Effect and Hyperfine Splitting}{271}{chapter.37}
+\contentsline {section}{\numberline {37.1}Strong-Field Zeeman Splitting}{271}{section.37.1}
+\contentsline {section}{\numberline {37.2}Weak-Field Zeeman Splitting}{272}{section.37.2}
+\contentsline {section}{\numberline {37.3}Hyerfine Splitting}{274}{section.37.3}
+\contentsline {chapter}{\numberline {38}Atomic transitions}{277}{chapter.38}
+\contentsline {section}{\numberline {38.1}$m_l$ Selection Rules}{278}{section.38.1}
+\contentsline {section}{\numberline {38.2}$l$ Selection Rules}{279}{section.38.2}
+\contentsline {section}{\numberline {38.3}Brute-force calculations}{281}{section.38.3}
+\contentsline {chapter}{\numberline {39}Modeling Bound States Numerically}{282}{chapter.39}
+\contentsline {section}{\numberline {39.1}Scaling the TISWE to dimensionless parameters}{282}{section.39.1}
+\contentsline {section}{\numberline {39.2}Setting up the Numerical Solver}{283}{section.39.2}
+\contentsline {subsection}{Fixed left boundary}{284}{subsection*.53}
+\contentsline {subsection}{Fixed Symmetry Point}{284}{subsection*.54}
+\contentsline {section}{\numberline {39.3}The Shooting Method}{284}{section.39.3}
+\contentsline {section}{\numberline {39.4}Refining and Improving Solutions}{286}{section.39.4}
+\contentsline {chapter}{\numberline {40}ElMaW Harmonic Oscillator Model}{288}{chapter.40}
+\contentsline {section}{\numberline {40.1}ElMaW QHO Model}{288}{section.40.1}
+\contentsline {section}{\numberline {40.2}Fock State Beamsplitter}{289}{section.40.2}
+\contentsline {section}{\numberline {40.3}Anti-coincidence}{291}{section.40.3}
+\contentsline {chapter}{\numberline {41}Part \ref {part4} Review and Test}{293}{chapter.41}
+\contentsline {subsection}{Matrix Representations}{302}{subsection*.56}
+\contentsfinish 
